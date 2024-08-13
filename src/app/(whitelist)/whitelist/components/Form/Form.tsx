@@ -128,18 +128,17 @@ const Form = () => {
         }
       );
   
-      if (response.status === 200) {
-        setName("");
-        setEmail("");
-        setAddressWallet("");
-        setCaptchaVerified(false);
-        toast.success("Form sent successfully!");
-      } else if (response.status === 400) {
-        const errorBody = JSON.parse(response.data.body);
-        const errorMessage = errorBody.message || "Oops... something went wrong while sending the form.";
-        toast.error(errorMessage);
-      } else {
-        toast.error("Oops... something went wrong while sending the form.");
+      const responseData = response.data;
+      try {
+        const parsedBody = JSON.parse(responseData.body);
+        
+        if (parsedBody.message) {
+          toast.error(parsedBody.message);
+        } else {
+          toast.success("Form sent successfully!");
+        }
+      } catch (jsonError) {
+        toast.error("Unexpected error occurred.");
       }
     } catch (error) {
       console.error(error);
@@ -148,15 +147,19 @@ const Form = () => {
         const errorResponse = error.response?.data;
   
         if (errorResponse && typeof errorResponse === 'object') {
-          const errorMessage = errorResponse.body
-            ? JSON.parse(errorResponse.body).message
-            : error.message || "Oops... something went wrong while sending the form.";
-          toast.error(errorMessage);
+          try {
+            const errorMessage = errorResponse.body
+              ? JSON.parse(errorResponse.body).message
+              : error.message || "An unknown error occurred.";
+            toast.error(errorMessage);
+          } catch (parseError) {
+            toast.error("Error parsing the error message.");
+          }
         } else {
-          toast.error(error.message || "Oops... something went wrong while sending the form.");
+          toast.error(error.message || "An unknown error occurred.");
         }
       } else {
-        toast.error("Oops... something went wrong while sending the form.");
+        toast.error("An unknown error occurred.");
       }
     }
   };
