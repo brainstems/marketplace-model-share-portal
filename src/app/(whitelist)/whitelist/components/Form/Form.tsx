@@ -98,6 +98,8 @@ const Form = () => {
             "x-api-key": process.env.NEXT_PUBLIC_API_KEY as string,
           },
         }
+
+        
       );
 
       if (response.status === 200) {
@@ -127,9 +129,9 @@ const Form = () => {
         setLoadings((prevLoadings) => {
           const newLoadings = [...prevLoadings];
           newLoadings[index] = false;
-          if (captchaVerified && validateForm()) {
+          /* if (captchaVerified && validateForm()) {
             window.location.href = "/whitelist";
-          }
+          } */
           return newLoadings;
         });
       }, 8000);
