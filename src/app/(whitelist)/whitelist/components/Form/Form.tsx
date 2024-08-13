@@ -6,9 +6,13 @@ import ReCAPTCHA from "react-google-recaptcha";
 import Button from "@/app/ui/Button/Button";
 import { useAccount, useDisconnect } from "wagmi";
 import { useWeb3Modal } from "@web3modal/wagmi/react";
-import fontTitle from 'next/font/local'
+import fontTitle from "next/font/local";
+import axios from 'axios';
 
-const title = fontTitle({ src: '../../../../../../public/assets/fonts/ClashDisplayBold.woff' })
+
+const title = fontTitle({
+  src: "../../../../../../public/assets/fonts/ClashDisplayBold.woff",
+});
 
 const fontHeading = Roboto({
   weight: "700",
@@ -67,7 +71,7 @@ const Form = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
+  
     if (!captchaVerified || !validateForm()) {
       if (!validateForm()) {
         toast.error("Please fill out all required fields.");
@@ -77,19 +81,27 @@ const Form = () => {
       }
       return;
     }
-    
-
-    /*   const formData = new FormData(e.currentTarget);
-
+  
+    // Define the data you want to send
+    const data = {
+      name: name,
+      email: email,
+      address: addressWallet,
+      campaign: "soccer",
+    };
+  
     try {
-      const response = await fetch("/api/send", {
-        method: "POST",
-        body: formData,
-      });
-
-      const result = await response.json();
-
-      if (result.success) {
+      const response = await axios.post(
+        process.env.NEXT_PUBLIC_FORM as string,
+        data,
+        {
+          headers: {
+            'x-api-key': process.env.NEXT_PUBLIC_API_KEY as string,
+          },
+        }
+      );
+  
+      if (response.status === 200) {
         setName("");
         setEmail("");
         setAddressWallet("");
@@ -101,7 +113,7 @@ const Form = () => {
     } catch (error) {
       console.error(error);
       toast.error("Oops... something went wrong while sending the message.");
-    } */
+    }
   };
 
   const enterLoading = (index: number) => {
@@ -176,7 +188,9 @@ const Form = () => {
       onSubmit={handleSubmit}
     >
       <div className="flex justify-center items-center gap-3 flex-col px-4 mb-4">
-        <h3 className={`${title.className}  text-[1.6rem] md:text-[2.3rem] font-[900] text-center `}>
+        <h3
+          className={`${title.className}  text-[1.6rem] md:text-[2.3rem] font-[900] text-center `}
+        >
           Join the Early Access Whitelist
         </h3>
         <p className="text-[15px] md:text-[18px] text-center md:max-w-[80%]">
