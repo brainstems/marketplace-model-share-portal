@@ -133,13 +133,13 @@ const Form = () => {
         setEmail("");
         setAddressWallet("");
         setCaptchaVerified(false);
-        toast.success("Message sent successfully!");
+        toast.success("Form sent successfully!");
       } else {
-        toast.error("Oops... something went wrong while sending the message.");
+        toast.error("Oops... something went wrong while sending the form.");
       }
     } catch (error) {
       console.error(error);
-      toast.error("Oops... something went wrong while sending the message.");
+      toast.error(`${error}`);
     }
   };
 
