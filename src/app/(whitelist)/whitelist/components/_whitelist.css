@@ -1,0 +1,12 @@
+
+.white::after{
+    content: '';
+    position: absolute;
+    background-image: url('../../../../../public/assets/image/white2.webp');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    z-index: -1;
+}

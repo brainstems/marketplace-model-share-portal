@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background: #00082F;
+  color: white;
+}
+
+:root{
+  background: #00082F;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background-color: #7C1DC9;
+}
+
+::-moz-selection {
+   color: rgb(255, 255, 255);
+   background-color: #7C1DC9;
+}
+
+::-webkit-scrollbar {
+  background-color: #060011;
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #897ca8;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c2836;
+}
+
+
+
+.Toastify__toast-container{
+  z-index: 9999999 !important;
+}
+
+.Toastify__toast-theme--light {
+  background: #06001a !important;
+  color: white !important;
+}
+
+.Toastify__close-button > svg {
+  fill: white !important;
+}
