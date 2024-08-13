@@ -77,10 +77,10 @@ const HowItWork = () => {
       initial={{ opacity: 0, y: 120 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg_how w-full flex justify-center lg:justify-start items-center flex-col relative overflow-hidden px-[1rem] lg:px-[8rem] xl:px-[11rem] mb-[14rem] gap-[2rem] mt-[4rem] "
+      className="bg_how w-full flex justify-center lg:justify-start items-center flex-col relative overflow-hidden px-[1rem] lg:px-[8rem] xl:px-[11rem] mb-[4rem] md:mb-[14rem] gap-[2rem] mt-[4rem] "
     >
       <h3
-        className={`${title.className} titleAbout text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center `}
+        className={`${title.className} titleAbout text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center mb-6 `}
       >
         How It Works
       </h3>
