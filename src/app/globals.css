@@ -17,12 +17,7 @@ html {
 :root {
   background: #00082f;
 }
-
-.titleHead,
-.textPredictive,
-.titleForm {
-  font-family: "Clash Display", sans-serif;
-}
+ 
 
 ::selection {
   color: rgb(255, 255, 255);
