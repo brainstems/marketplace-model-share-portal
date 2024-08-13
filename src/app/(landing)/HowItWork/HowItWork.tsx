@@ -2,7 +2,10 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import fontTitle from 'next/font/local'
 
+const title = fontTitle({ src: '../../../../public/assets/fonts/ClashDisplayBold.woff' })
+ 
 interface CardData {
   title: string;
   description: string;
@@ -53,8 +56,8 @@ const cardVariants = {
   }),
 };
 
-const Card: React.FC<{ title: string; description: string; index: number }> = ({
-  title,
+const Card: React.FC<{ titleCard: string; description: string; index: number }> = ({
+    titleCard,
   description,
   index,
 }) => (
@@ -66,13 +69,13 @@ const Card: React.FC<{ title: string; description: string; index: number }> = ({
     viewport={{ once: true }} 
     className="bg-[#0901188c] backdrop-blur-[10px] border border-[#272727] rounded-xl shadow-xl md:p-8 p-4 py-[2rem] flex justify-center items-center flex-col gap-2 text-center"
   >
-    <h3 className="title_card md:text-[1.7rem] text-[1.3rem] font-bold mb-2 text-[#ececec] tracking-[1px]">
-      {title}
+    <h3 className={` ${title.className} title_card md:text-[1.7rem] text-[1.3rem] font-bold mb-2 text-[#ececec] tracking-[1px] `}> 
+      {titleCard}
     </h3>
     <p className="text-[.95rem] md:text-[1rem] text-[#f1f1f1]">{description}</p>
   </motion.div>
 );
-
+ 
 const HowItWork = () => {
   return (
     <motion.div
@@ -81,7 +84,7 @@ const HowItWork = () => {
       transition={{ duration: 0.5 }}
       className="bg_how w-full flex justify-center lg:justify-start items-center flex-col relative overflow-hidden px-[1rem] lg:px-[8rem] xl:px-[11rem] mb-[4rem] gap-[2rem] mt-4"
     >
-      <h3 className="titleAbout text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center ">
+      <h3 className={`${title.className} titleAbout text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center `}>
         How It Works
       </h3>
 
@@ -95,7 +98,7 @@ const HowItWork = () => {
         {cardData.map((data, index) => (
           <Card
             key={index}
-            title={data.title}
+            titleCard={data.title}
             description={data.description}
             index={index}
           />

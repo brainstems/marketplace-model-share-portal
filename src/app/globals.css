@@ -1,7 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.cdnfonts.com/css/clash-display?styles=106288,106285,106286,106287,106289,106284");
+
+/* @font-face {
+  font-family: 'Clash Display Bold';
+  src: url('/assets/fonts/ClashDisplayBold.woff') format('woff');
+  font-weight: bold; 
+  font-style: normal; 
+}
+
+.titleHead, .textPredictive, .titleAbout , .title_card {
+  font-family: 'Clash Display', sans-serif; 
+} */
 
 * {
   margin: 0;

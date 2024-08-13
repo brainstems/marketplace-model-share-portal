@@ -3,7 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./_about.css";
+import fontTitle from 'next/font/local'
 
+const title = fontTitle({ src: '../../../../public/assets/fonts/ClashDisplayBold.woff' })
+ 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -36,7 +39,7 @@ const About = () => {
     >
       <motion.h3
         variants={itemVariants}
-        className="titleAbout text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center"
+        className={`${title.className} titleAbout text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center `}
       >
         Do you want to see how you measure up against advanced AI?
       </motion.h3>

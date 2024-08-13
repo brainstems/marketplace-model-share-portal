@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/clash-display?styles=106288,106285,106286,106287,106289,106284");
+
 
 .white {
     position: relative; 
@@ -16,6 +16,7 @@
     z-index: -1; 
 }
 
-.titleForm {
+/* .titleForm {
     font-family: "Clash Display", sans-serif; 
 }
+ */

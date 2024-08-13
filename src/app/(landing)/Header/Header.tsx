@@ -5,6 +5,10 @@ import "./_header.css";
 import Link from "next/link";
 import Button from "@/app/ui/Button/Button";
 import { motion } from "framer-motion";
+import fontTitle from 'next/font/local'
+
+const title = fontTitle({ src: '../../../../public/assets/fonts/ClashDisplayBold.woff' })
+ 
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -39,7 +43,7 @@ const Header = () => {
       >
         <motion.h1
           variants={itemVariants}
-          className="titleHead text-[35px] sm:text-[40px] md:text-[69px] font-[900] tracking-[-.5px] sm:tracking-[-1px] leading-[120%]"
+          className={` ${title.className} titleHead text-[35px] sm:text-[40px] md:text-[69px] font-[900] tracking-[-.5px] sm:tracking-[-1px] leading-[120%] `}
         >
           Unlock the Power of JedAi
         </motion.h1>

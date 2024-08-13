@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Form from "./Form/Form";
 import "./_whitelist.css";
 
+ 
 const containerVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
