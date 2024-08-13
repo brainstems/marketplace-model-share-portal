@@ -81,7 +81,6 @@ const Form = () => {
       return;
     }
 
-    // Define the data you want to send
     const data = {
       name: name,
       email: email,
@@ -95,6 +94,7 @@ const Form = () => {
         data,
         {
           headers: {
+            "Content-Type": "application/json",
             "x-api-key": process.env.NEXT_PUBLIC_API_KEY as string,
           },
         }
