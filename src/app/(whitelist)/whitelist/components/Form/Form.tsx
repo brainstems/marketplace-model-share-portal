@@ -7,8 +7,7 @@ import Button from "@/app/ui/Button/Button";
 import { useAccount, useDisconnect } from "wagmi";
 import { useWeb3Modal } from "@web3modal/wagmi/react";
 import fontTitle from "next/font/local";
-import axios from 'axios';
-
+import axios from "axios";
 
 const title = fontTitle({
   src: "../../../../../../public/assets/fonts/ClashDisplayBold.woff",
@@ -71,7 +70,7 @@ const Form = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-  
+
     if (!captchaVerified || !validateForm()) {
       if (!validateForm()) {
         toast.error("Please fill out all required fields.");
@@ -81,7 +80,7 @@ const Form = () => {
       }
       return;
     }
-  
+
     // Define the data you want to send
     const data = {
       name: name,
@@ -89,18 +88,18 @@ const Form = () => {
       address: addressWallet,
       campaign: "soccer",
     };
-  
+
     try {
       const response = await axios.post(
         process.env.NEXT_PUBLIC_FORM as string,
         data,
         {
           headers: {
-            'x-api-key': process.env.NEXT_PUBLIC_API_KEY as string,
+            "x-api-key": process.env.NEXT_PUBLIC_API_KEY as string,
           },
         }
       );
-  
+
       if (response.status === 200) {
         setName("");
         setEmail("");
