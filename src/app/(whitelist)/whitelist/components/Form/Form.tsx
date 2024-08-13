@@ -133,7 +133,7 @@ const Form = () => {
         const parsedBody = JSON.parse(responseData.body);
         
         if (parsedBody.message) {
-          toast.info(parsedBody.message);
+          toast(parsedBody.message);
         } else {
           toast.success("Form sent successfully!");
         }
