@@ -68,6 +68,33 @@ const Form = () => {
     return Object.values(newErrors).every((error) => error === "");
   };
 
+
+  const [locationData, setLocationData] = useState({
+    ip: '',
+    country: '',
+    region: '',
+    city: ''
+  });
+
+  const getLocationData = async () => {
+    try {
+      const ipResponse = await axios.get('https://api.ipify.org?format=json');
+      const ip = ipResponse.data.ip;
+
+      const locationResponse = await axios.get(`https://ipinfo.io/${ip}/json`);
+      const { ip: ipAddress, country, region, city } = locationResponse.data;
+
+      setLocationData({ ip: ipAddress, country, region, city });
+
+    } catch (error) {
+      console.error('Error fetching ip :', error);
+    }
+  };
+
+  useEffect(() => {
+    getLocationData();
+  }, []);
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -86,12 +113,13 @@ const Form = () => {
       email: email,
       address: addressWallet,
       campaign: "soccer",
+      ...locationData 
     };
 
     try {
       const response = await axios.post(
         process.env.NEXT_PUBLIC_FORM as string,
-        data,
+        { body: data }, 
         {
           headers: {
             "Content-Type": "application/json",
