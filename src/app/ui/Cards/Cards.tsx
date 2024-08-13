@@ -41,7 +41,7 @@ const Cards: React.FC = () => {
   const settings = {
     infinite: true,
     autoplay: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 1,
     speed: 1500,
@@ -93,13 +93,13 @@ const Cards: React.FC = () => {
       className: "card card-3",
       date: "Sun, Aug 18",
       time: "12:30 PM",
-    },
+    }/* ,
     {
       title: "Valencia vs Barcelona",
       className: "card card-4",
       date: "Sat, Aug 17",
       time: "4:30 PM",
-    }/* ,
+    } *//* ,
     {
       title: "valladolid vs Espanyol",
       className: "card card-5",

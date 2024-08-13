@@ -66,13 +66,13 @@
   /*   cursor: pointer; */
   transition-duration: 500ms;
   border-radius: 40px;
-  width: 23.7rem !important;
+  width: 28.7rem !important;
   left: 0.8rem;
   border: 2px solid rgba(104, 104, 104, 0.192);
 }
 
 .card:hover::before {
-  transform: scale(1.1) translateY(-4%);
+  transform: scale(1.01) translateY(-2%);
 }
 .card:hover::after {
   opacity: 1;
