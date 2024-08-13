@@ -95,11 +95,10 @@ const Form = () => {
         data,
         {
           headers: {
+            "Content-Type": "application/json",
             "x-api-key": process.env.NEXT_PUBLIC_API_KEY as string,
           },
         }
-
-        
       );
 
       if (response.status === 200) {
@@ -143,10 +142,8 @@ const Form = () => {
 
     if (captchaValue) {
       setCaptchaVerified(true);
-      console.log(captchaValue);
     } else {
       setCaptchaVerified(false);
-      console.log(captchaValue);
     }
   };
 
