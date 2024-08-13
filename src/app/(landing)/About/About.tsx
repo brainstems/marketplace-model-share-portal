@@ -43,14 +43,21 @@ const About = () => {
         variants={itemVariants}
         className={`${title.className} titleAbout text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center `}
       >
-        Do you want to see how you measure up against advanced AI?
+        Predict The Future with JedAI
       </motion.h3>
 
       <motion.p
         variants={itemVariants}
         className="text-[#f3f3f3] md:text-[17px] text-[16px] w-full md:w-[85%] lg:w-[75%] md:text-center md:leading-[160%] pl-[.8rem] md:pl-auto"
       >
-       Engage in weekly prediction events for top European football leagues, compare your predictions with JedAI&apos;s AI-driven insights, and compete for a chance to win $STEMS tokens! With real-time updates and multi-league coverage, JedAI Football offers a thrilling and rewarding experience for football enthusiasts across Europe. Get started by joining our exclusive whitelist to participate in upcoming prediction events. Once you&apos;re in, select your matches, make your predictions, and see how they stack up against JedAI! With each correct prediction, you earn $STEMS tokens, adding real value to your football expertise. Don&apos;t miss out—secure your spot today and put your football knowledge to the test!
+        To celebrate the launch of the Sports Brainstem. We invite you to engage
+        in weekly prediction events for top global football leagues, and compete
+        for a chance to win $STEMS tokens! JedAI Football offers a thrilling and
+        rewarding experience for football enthusiasts around the world. Get
+        started by joining our exclusive whitelist to participate in upcoming
+        prediction events. Once you&apos;re in, select your matches, and make your
+        predictions. With each correct prediction, you earn $STEMS tokens,
+        adding real value to your football expertise.
       </motion.p>
     </motion.div>
   );

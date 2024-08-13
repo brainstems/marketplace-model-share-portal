@@ -17,13 +17,13 @@ const containerVariants = {
 
 const Whitelist = () => {
   return (
-    <div className="white flex flex-col gap-4 w-full min-h-[100vh] relative">
+    <div className="white flex flex-col gap-4 w-full min-h-[100vh] relative pb-[5rem]">
       <motion.div
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: false }}
-        className="relative w-full h-full flex justify-center items-center mt-[9rem] px-4"
+        className="relative w-full h-full flex justify-center items-center mt-[9rem] px-4 "
       >
         <Form />
       </motion.div>
