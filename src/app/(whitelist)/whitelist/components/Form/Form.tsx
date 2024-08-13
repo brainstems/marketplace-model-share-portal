@@ -138,16 +138,25 @@ const Form = () => {
         const errorBody = JSON.parse(response.data.body);
         const errorMessage = errorBody.message || "Oops... something went wrong while sending the form.";
         toast.error(errorMessage);
+      } else {
+        toast.error("Oops... something went wrong while sending the form.");
       }
     } catch (error) {
       console.error(error);
+  
       if (axios.isAxiosError(error)) {
-        const errorMessage = error.response?.data?.body
-          ? JSON.parse(error.response.data.body).message
-          : error.message || "An unknown error occurred.";
-        toast.error(errorMessage);
+        const errorResponse = error.response?.data;
+  
+        if (errorResponse && typeof errorResponse === 'object') {
+          const errorMessage = errorResponse.body
+            ? JSON.parse(errorResponse.body).message
+            : error.message || "Oops... something went wrong while sending the form.";
+          toast.error(errorMessage);
+        } else {
+          toast.error(error.message || "Oops... something went wrong while sending the form.");
+        }
       } else {
-        toast.error("An unknown error occurred.");
+        toast.error("Oops... something went wrong while sending the form.");
       }
     }
   };
