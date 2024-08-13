@@ -172,7 +172,7 @@ const Form = () => {
       onSubmit={handleSubmit}
     >
       <div className="flex justify-center items-center gap-3 flex-col px-4 mb-4">
-        <h3 className="text-[1.6rem] md:text-[2.3rem] font-[900] text-center">
+        <h3 className="titleForm text-[1.6rem] md:text-[2.3rem] font-[900] text-center">
           Join the Early Access Whitelist
         </h3>
         <p className="text-[15px] md:text-[18px] text-center md:max-w-[80%]">

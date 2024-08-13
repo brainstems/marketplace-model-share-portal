@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.cdnfonts.com/css/clash-display?styles=106288,106285,106286,106287,106289,106284");
 
 * {
   margin: 0;
@@ -8,23 +9,29 @@
   box-sizing: border-box;
 }
 
-html{
-  background: #00082F;
+html {
+  background: #00082f;
   color: white;
 }
 
-:root{
-  background: #00082F;
+:root {
+  background: #00082f;
+}
+
+.titleHead,
+.textPredictive,
+.titleForm {
+  font-family: "Clash Display", sans-serif;
 }
 
 ::selection {
   color: rgb(255, 255, 255);
-  background-color: #7C1DC9;
+  background-color: #7c1dc9;
 }
 
 ::-moz-selection {
-   color: rgb(255, 255, 255);
-   background-color: #7C1DC9;
+  color: rgb(255, 255, 255);
+  background-color: #7c1dc9;
 }
 
 ::-webkit-scrollbar {
@@ -41,9 +48,7 @@ html{
   background: #2c2836;
 }
 
-
-
-.Toastify__toast-container{
+.Toastify__toast-container {
   z-index: 9999999 !important;
 }
 
