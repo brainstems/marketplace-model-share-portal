@@ -46,14 +46,14 @@ const About = () => {
         className="text-[#f3f3f3] md:text-[17px] text-[16px] w-full md:w-[85%] lg:w-[75%] md:text-center md:leading-[160%] pl-[.8rem] md:pl-auto"
       >
         Engage in weekly prediction events for top European football leagues,
-        compare your predictions with JedAI's AI-driven insights, and compete
+        compare your predictions with JedAI&apos;s AI-driven insights, and compete
         for a chance to win $STEMS tokens! With real-time updates and
         multi-league coverage, JedAI Football offers a thrilling and rewarding
         experience for football enthusiasts across Europe. Get started by
         joining our exclusive whitelist to participate in upcoming prediction
-        events. Once you're in, select your matches, make your predictions, and
+        events. Once you&apos;re in, select your matches, make your predictions, and
         see how they stack up against JedAI! With each correct prediction, you
-        earn $STEMS tokens, adding real value to your football expertise. Don't
+        earn $STEMS tokens, adding real value to your football expertise. Don&apos;t
         miss out—secure your spot today and put your football knowledge to the
         test!
       </motion.p>
