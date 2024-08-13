@@ -155,9 +155,9 @@ const Form = () => {
         setLoadings((prevLoadings) => {
           const newLoadings = [...prevLoadings];
           newLoadings[index] = false;
-          /* if (captchaVerified && validateForm()) {
+          if (captchaVerified && validateForm()) {
             window.location.href = "/whitelist";
-          } */
+          }
           return newLoadings;
         });
       }, 8000);
