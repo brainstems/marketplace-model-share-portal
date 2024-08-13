@@ -123,7 +123,7 @@ const Form = () => {
         {
           headers: {
             "Content-Type": "application/json",
-            "x-api-key": process.env.NEXT_PUBLIC_API_KEY as string,
+            /* "x-api-key": process.env.NEXT_PUBLIC_API_KEY as string, */
           },
         }
       );
