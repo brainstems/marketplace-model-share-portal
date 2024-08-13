@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({ title, className, date, time }) => (
     <div className=" absolute top-[1.4rem] right-[1.6rem]">
       <p className="font-bold text-[#fefefe] text-[1.1rem] backdrop-blur-[10px]">{date}</p>
     </div>
-    <div className=" absolute bottom-[8.5rem] md:bottom-[5.5rem] w-[10rem] right-[-4rem] border border-[#797979] rounded-xl px-4 py-2 bg-[#00000049] backdrop-blur-[10px] border-r-0" >
+    <div className=" absolute bottom-[8.5rem] md:bottom-[6.5rem] w-[10rem] right-[-4rem] border border-[#797979] rounded-xl px-4 py-2 bg-[#00000049] backdrop-blur-[10px] border-r-0" >
       <p className="text-[.9rem] font-semibold">{time}</p>
     </div>
 
@@ -43,7 +43,7 @@ const Cards: React.FC = () => {
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 1,
+    initialSlide: 3,
     speed: 1500,
     autoplaySpeed: 8000,
     pauseOnHover: true,
@@ -77,9 +77,9 @@ const Cards: React.FC = () => {
 
   const cardsData: CardProps[] = [
     {
-      title: "Villarreal vs Atlético Madrid",
+      title: "Las Palmas vs Sevilla",
       className: "card card-1",
-      date: "Mon, Aug 19",
+      date: "Fri, Aug 16",
       time: "4:30 PM",
     },
     {

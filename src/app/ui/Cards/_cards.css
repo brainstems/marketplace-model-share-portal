@@ -14,7 +14,7 @@
 }
 
 .card-1::before {
-  background: url("/assets/image/Cards/card11.webp");
+  background: url("/assets/image/Cards/card4.webp");
   background-position: center;
 }
 .card-2::before {
@@ -67,6 +67,7 @@
   transition-duration: 500ms;
   border-radius: 40px;
   width: 28.7rem !important;
+/*   width: 23.7rem !important; */
   left: 0.8rem;
   border: 2px solid rgba(104, 104, 104, 0.192);
 }
