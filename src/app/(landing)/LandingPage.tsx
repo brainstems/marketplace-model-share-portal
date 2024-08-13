@@ -6,15 +6,13 @@ import HowItWork from "./HowItWork/HowItWork";
 
 const LandingPage = () => {
   return (
-    <div className="hero flex flex-col gap-[2rem]"> 
+    <div className="hero flex flex-col gap-[3rem]">
       <Header />
-      <About/>
-      <HowItWork/>
-      <div className="bg_convert w-full bg-[#00082F] ">
-        <div className="w-full">
-          <Cards />
-        </div>
+      <About />
+      <div className="bg_convert w-full bg-[#00082F]">
+        <Cards />
       </div>
+      <HowItWork />
     </div>
   );
 };

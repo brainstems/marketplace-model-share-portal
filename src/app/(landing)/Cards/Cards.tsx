@@ -159,7 +159,7 @@ const Cards: React.FC = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="w-full flex justify-center lg:justify-center items-center relative overflow-hidden px-[2rem] lg:px-[8rem] xl:px-[11rem] mb-8"
+        className="w-full flex justify-center lg:justify-center items-center relative overflow-hidden px-[2rem] lg:px-[8rem] xl:px-[11rem]  mb-[3rem] "
       >
         <h3 className={`${title.className} textPredictive text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center `}>
           Predictive Event Selections

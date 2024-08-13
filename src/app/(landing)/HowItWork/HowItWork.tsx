@@ -63,11 +63,11 @@ const Card: React.FC<{
     className="bg-[#0901188c] backdrop-blur-[10px] border border-[#272727] rounded-xl shadow-xl md:p-8 p-4 py-[2rem] flex justify-center items-center flex-col gap-2 text-center"
   >
     <h3
-      className={` ${title.className} title_card md:text-[1.7rem] text-[1.3rem] font-bold mb-2 text-[#ececec] tracking-[1px] `}
+      className={` ${title.className} title_card md:text-[1.8rem] text-[1.3rem] font-bold mb-2 text-[#ececec] tracking-[1px] `}
     >
       {titleCard}
     </h3>
-    <p className="text-[.95rem] md:text-[1rem] text-[#f1f1f1]">{description}</p>
+    <p className="text-[.95rem] md:text-[18px] text-[#f1f1f1]">{description}</p>
   </motion.div>
 );
 
@@ -77,7 +77,7 @@ const HowItWork = () => {
       initial={{ opacity: 0, y: 120 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg_how w-full flex justify-center lg:justify-start items-center flex-col relative overflow-hidden px-[1rem] lg:px-[8rem] xl:px-[11rem] mb-[4rem] gap-[2rem] mt-4"
+      className="bg_how w-full flex justify-center lg:justify-start items-center flex-col relative overflow-hidden px-[1rem] lg:px-[8rem] xl:px-[11rem] mb-[14rem] gap-[2rem] mt-[4rem] "
     >
       <h3
         className={`${title.className} titleAbout text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center `}

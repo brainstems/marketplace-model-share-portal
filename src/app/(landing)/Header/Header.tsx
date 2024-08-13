@@ -33,7 +33,7 @@ const staggerVariants = {
 
 const Header = () => {
   return (
-    <div className="header relative w-full min-h-[100vh] top-[-5rem] bg-[#00082F] flex justify-center items-center flex-col">
+    <div className="header relative w-full min-h-[100vh] top-[-5rem] bg-[#00082F] flex justify-center items-center flex-col ">
       <motion.div
         variants={staggerVariants}
         initial="hidden"

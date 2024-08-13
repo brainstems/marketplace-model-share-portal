@@ -48,7 +48,7 @@ const About = () => {
 
       <motion.p
         variants={itemVariants}
-        className="text-[#f3f3f3] md:text-[17px] text-[16px] w-full md:w-[85%] lg:w-[75%] md:text-center md:leading-[160%] pl-[.8rem] md:pl-auto"
+        className="text-[#f3f3f3] md:text-[20px] text-[16px] w-full md:w-[85%] lg:w-[75%] md:text-center md:leading-[160%] pl-[.8rem] md:pl-auto"
       >
         To celebrate the launch of the Sports Brainstem. We invite you to engage
         in weekly prediction events for top global football leagues, and compete
