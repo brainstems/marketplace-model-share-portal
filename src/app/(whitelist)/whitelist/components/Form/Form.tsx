@@ -97,7 +97,7 @@ const Form = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
+  
     if (!captchaVerified || !validateForm()) {
       if (!validateForm()) {
         toast.error("Please fill out all required fields.");
@@ -107,7 +107,7 @@ const Form = () => {
       }
       return;
     }
-
+  
     const data = {
       name: name,
       email: email,
@@ -115,11 +115,11 @@ const Form = () => {
       campaign: "soccer",
       ...locationData 
     };
-
+  
     try {
       const response = await axios.post(
         process.env.NEXT_PUBLIC_FORM as string,
-        { body: data }, 
+        { body: data },
         {
           headers: {
             "Content-Type": "application/json",
@@ -127,19 +127,28 @@ const Form = () => {
           },
         }
       );
-
+  
       if (response.status === 200) {
         setName("");
         setEmail("");
         setAddressWallet("");
         setCaptchaVerified(false);
         toast.success("Form sent successfully!");
-      } else {
-        toast.error("Oops... something went wrong while sending the form.");
+      } else if (response.status === 400) {
+        const errorBody = JSON.parse(response.data.body);
+        const errorMessage = errorBody.message || "Oops... something went wrong while sending the form.";
+        toast.error(errorMessage);
       }
     } catch (error) {
       console.error(error);
-      toast.error(`${error}`);
+      if (axios.isAxiosError(error)) {
+        const errorMessage = error.response?.data?.body
+          ? JSON.parse(error.response.data.body).message
+          : error.message || "An unknown error occurred.";
+        toast.error(errorMessage);
+      } else {
+        toast.error("An unknown error occurred.");
+      }
     }
   };
 
