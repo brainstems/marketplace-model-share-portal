@@ -5,10 +5,11 @@ import "./_header.css";
 import Link from "next/link";
 import Button from "@/app/ui/Button/Button";
 import { motion } from "framer-motion";
-import fontTitle from 'next/font/local'
+import fontTitle from "next/font/local";
 
-const title = fontTitle({ src: '../../../../public/assets/fonts/ClashDisplayBold.woff' })
- 
+const title = fontTitle({
+  src: "../../../../public/assets/fonts/ClashDisplayBold.woff",
+});
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -54,12 +55,19 @@ const Header = () => {
           Experience the Future of AI with Early Access
         </motion.span>
 
-        <motion.div className=" relative top-[2rem] flex justify-center items-center gap-3 flex-col"   variants={itemVariants}>
+        <motion.div
+          className=" relative top-[2rem] flex justify-center items-center gap-3 flex-col"
+          variants={itemVariants}
+        >
           <Link href={"/whitelist"}>
             <Button title="Join Whitelist" className="px-[3rem]" />
           </Link>
-          
-          <span className={` ${title.className} tracking-[1px] shadow-sm text-[#f8f8f8] !font-[200] text-[.9rem] `}>$200 $STEMS Prize Pool</span>
+          <motion.span
+            variants={itemVariants}
+            className={`tracking-[.5px] shadow-sm text-[#ececec] !font-[900] text-[1.02rem] `}
+          >
+            $200 $STEMS Prize Pool
+          </motion.span>
         </motion.div>
       </motion.div>
     </div>
