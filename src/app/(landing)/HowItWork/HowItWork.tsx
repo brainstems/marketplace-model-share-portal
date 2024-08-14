@@ -99,9 +99,9 @@ const CardStep: React.FC<{
           description
         ) : (
           <div className="flex justify-between items-start gap-4 w-full h-full flex-col lg:flex-row  ">
-            <div className=" flex gap-3 flex-col justify-start items-start w-full bg-[#0901188c] backdrop-blur-[10px] border border-[#272727] rounded-xl shadow-xl md:p-8 p-4 py-[2rem] text-center  lg:min-h-[22rem] xl:min-h-[26rem] 3xl:min-h-[19rem]">
+            <div className=" flex gap-3 flex-col justify-start items-start w-full bg-[#0901188c] backdrop-blur-[10px] border border-[#272727] rounded-xl shadow-xl md:p-8 p-4 py-[2rem]  lg:min-h-[22rem] xl:min-h-[25rem] 2xl:min-h-[24rem] 3xl:min-h-[19rem]">
               <span
-                className={` ${title.className} title_card md:text-[1.4rem] text-[1.1rem] font-bold mb-2 text-[#ececec] tracking-[1px] `}
+                className={` ${title.className} title_card md:text-[1.4rem] text-[1.1rem] text-start font-bold mb-2 text-[#ececec] tracking-[1px] `}
               >
                 Step 1: Connecting with a Wallet on the Y-List
               </span>
@@ -119,9 +119,9 @@ const CardStep: React.FC<{
               </ul>
             </div>
 
-            <div className=" flex gap-3 flex-col  justify-start items-start w-full  bg-[#0901188c] backdrop-blur-[10px] border border-[#272727] rounded-xl shadow-xl md:p-8 p-4 py-[2rem] lg:min-h-[22rem] xl:min-h-[26rem] 3xl:min-h-[19rem] text-center">
+            <div className=" flex gap-3 flex-col  justify-start items-start w-full  bg-[#0901188c] backdrop-blur-[10px] border border-[#272727] rounded-xl shadow-xl md:p-8 p-4 py-[2rem] lg:min-h-[22rem] xl:min-h-[25rem] 2xl:min-h-[24rem] 3xl:min-h-[19rem] text-center">
               <span
-                className={` ${title.className} title_card md:text-[1.4rem] text-[1.1rem] font-bold mb-2 text-[#ececec] tracking-[1px] `}
+                className={` ${title.className} title_card md:text-[1.4rem] text-[1.1rem] text-start font-bold mb-2 text-[#ececec] tracking-[1px] `}
               >
                 Step 2: Interacting with Predictions
               </span>
