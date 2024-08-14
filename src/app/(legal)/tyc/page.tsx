@@ -8,9 +8,14 @@ const Tyc = () => {
           <h1 className="text-[2.5rem] font-bold text-[#9debff] text-center">
             Terms and Conditions
           </h1> 
+          <p className="text-center  mb-8 italic">
+            Last updated: 08/14/2024
+          </p>
           <p className="text-center  mb-8 ">
             Thanks for using our product and services
           </p>
+        
+
 
           <p className=" mb-8 ">
             JedAI Terms and Conditions (this &apos;Agreement&apos;) is made and entered
