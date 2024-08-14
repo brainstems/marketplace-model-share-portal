@@ -13,44 +13,44 @@ const Tyc = () => {
           </p>
 
           <p className=" mb-8 ">
-            JedAI Terms and Conditions (this “Agreement”) is made and entered
-            into by and between Brainstems, (“Brainstems”) and the legal entity
-            set forth in the Account Information (“Customer”). It governs
+            JedAI Terms and Conditions (this &apos;Agreement&apos;) is made and entered
+            into by and between Brainstems, (&apos;Brainstems&apos;) and the legal entity
+            set forth in the Account Information (&apos;Customer&apos;). It governs
             Customer’s access to and use of the JedAI (as defined below) and
             takes effect on the date of its acceptance by Customer (the
-            “Effective Date”). Customer represents being lawfully able to enter
+              &apos;Effective Date&apos;). Customer represents being lawfully able to enter
             into contracts and having legal authority to bind Customer’s entity.
           </p>
 
           <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">DEFINITIONS</h3>
           <ul className="list-disc pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
             <li>
-              <strong>“API”</strong> means an application program interface.
+              <strong>&apos;API&apos;</strong> means an application program interface.
             </li>
             <li>
-              <strong>“Customer”</strong> means any individual or entity that
+              <strong>&apos;Customer&apos;</strong> means any individual or entity that
               directly or indirectly through another user: (a) accesses or uses
               the JedAI; or (b) accesses or purchases JedAI Feeds; or (c)
               accesses or utilizes the Services.
             </li>
             <li>
-              <strong>“Trader”</strong> means any Customer or legal entity and
+              <strong>&apos;Trader&apos;</strong> means any Customer or legal entity and
               its employees that sources or intends to source external
               predictions, or utilize the Services provided.
             </li>
             <li>
-              <strong>“JedAI”</strong> means any Customer or legal entity and
+              <strong>&apos;JedAI&apos;</strong> means any Customer or legal entity and
               its employees that provides or intends to provide predictions, or
               utilize the Services provided.
             </li>
             <li>
-              <strong>“Documentation”</strong> means the user guides (in each
+              <strong>&apos;Documentation&apos;</strong> means the user guides (in each
               case exclusive of content referenced via hyperlink) for the JedAI,
               as such user guides may be updated by Brainstems from time to
               time.
             </li>
             <li>
-              <strong>“JedAI Website”</strong> means the website at{" "}
+              <strong>&apos;JedAI Website&apos;</strong> means the website at{" "}
               <a
                 href="https://JedAI.ai"
                 target="_blank"
@@ -70,23 +70,23 @@ const Tyc = () => {
               may be updated by Brainstems from time to time.
             </li>
             <li>
-              <strong>“JedAI Feeds”</strong> means the prediction feeds that
+              <strong>&apos;JedAI Feeds&apos;</strong> means the prediction feeds that
               Customers may purchase through JedAI (and any successor or
               distribution channels designated by Brainstems), as may be updated
               by Brainstems from time to time.
             </li>
             <li>
-              <strong>“JedAI DF”</strong> means the incentive emissions operated
+              <strong>&apos;JedAI DF&apos;</strong> means the incentive emissions operated
               by Brainstems to reward JedAIs for helping to provide accurate
               predictions, (and any successor or parameter updates designated by
               Brainstems), as may be updated by Brainstems from time to time.
             </li>
             <li>
-              <strong>“Modifications Effective Date”</strong> will have the
+              <strong>&apos;Modifications Effective Date&apos;</strong> will have the
               meaning as set out in Section 2.2.
             </li>
             <li>
-              <strong>“Policies”</strong> means the Privacy Policy, the Platform
+              <strong>&apos;Policies&apos;</strong> means the Privacy Policy, the Platform
               Terms, the Service Terms, all restrictions described in the JedAI
               Website, and on the JedAI, and any other policy or terms
               referenced in or incorporated into this Agreement, but does not
@@ -94,7 +94,7 @@ const Tyc = () => {
               JedAI Website.
             </li>
             <li>
-              <strong>“Privacy Policy”</strong> means the privacy policy located
+              <strong>&apos;Privacy Policy&apos;</strong> means the privacy policy located
               at{" "}
               <a
                 href="https://www.Brainstemsprotocol.com"
@@ -107,7 +107,7 @@ const Tyc = () => {
               as it may be updated by Brainstems from time to time.
             </li>
             <li>
-              <strong>“Allowlist”</strong> means a state in which Brainstems
+              <strong>&apos;Allowlist&apos;</strong> means a state in which Brainstems
               tags specific JedAI Feeds to be visible in the JedAI and eligible
               for JedAI DF rewards. The Allowlist is an artifact of deployed
               JedAI Feeds that considered officially supported by Brainstems.
@@ -121,19 +121,19 @@ const Tyc = () => {
               </a>
             </li>
             <li>
-              <strong>“Service”</strong> means each of the websites, software,
+              <strong>&apos;Service&apos;</strong> means each of the websites, software,
               smart contracts, and services made available by Brainstems or its
               affiliates, including those web services described in the Service
               Terms. Services do not include Third-Party Content.
             </li>
             <li>
-              <strong>“Service Terms”</strong> means the rights and restrictions
+              <strong>&apos;Service Terms&apos;</strong> means the rights and restrictions
               for particular Services located on the JedAI Website (and any
               successor or related locations designated by Brainstems), as may
               be updated by Brainstems from time to time.
             </li>
             <li>
-              <strong>“Website Terms”</strong> means the terms of use located at{" "}
+              <strong>&apos;Website Terms&apos;</strong> means the terms of use located at{" "}
               <a
                 href="https://www.Brainstemsprotocol.com"
                 target="_blank"
@@ -145,11 +145,11 @@ const Tyc = () => {
               as may be updated by Brainstems from time to time.
             </li>
             <li>
-              <strong>“Term”</strong> means the term of this Agreement described
+              <strong>&apos;Term&apos;</strong> means the term of this Agreement described
               in Section 7.1.
             </li>
             <li>
-              <strong>“Termination Date”</strong> means the effective date of
+              <strong>&apos;Termination Date&apos;</strong> means the effective date of
               termination provided in accordance with Section 7.1.
             </li>
           </ul>
@@ -181,8 +181,8 @@ const Tyc = () => {
               of the JedAI or any source.
             </li>
             <li>
-              1.4 By clicking any button or box marked "buy", “accept” or
-              “agree” (or a similar term), or by accessing or using the JedAI,
+              1.4 By clicking any button or box marked &apos;buy&apos;, &apos;accept&apos; or
+              &apos;agree&apos; (or a similar term), or by accessing or using the JedAI,
               you agree to be bound by this Agreement, a current version of
               which is available at the JedAI, and which may be modified from
               time to time at our sole discretion. We are only providing our
@@ -321,7 +321,7 @@ const Tyc = () => {
               another service.
             </li>
             <li>
-              5.2 Oasis requires the payment of a transaction fee (a “Gas Fee”)
+              5.2 Oasis requires the payment of a transaction fee (a &apos;Gas Fee&apos;)
               for every transaction that occurs on the Oasis network. The Gas
               Fee funds the network of computers that run the decentralized
               Oasis network. This means that you will need to pay a Gas Fee for
@@ -433,7 +433,7 @@ const Tyc = () => {
           </h3>
           <ol className="pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
             <li>
-              9.1 Warranties. The JedAI is provided “as is”. Except to the
+              9.1 Warranties. The JedAI is provided &apos;as is&apos;. Except to the
               extent prohibited by law, or to the extent any statutory rights
               apply that cannot be excluded, limited or waived, Brainstems its
               affiliates and licensors: (a) make no representations or
