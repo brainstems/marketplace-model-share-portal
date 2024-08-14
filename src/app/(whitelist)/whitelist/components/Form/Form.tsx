@@ -102,9 +102,6 @@ const Form = () => {
       if (!validateForm()) {
         toast.error("Please fill out all required fields.");
       }
-      if (validateForm() && !captchaVerified) {
-        toast.info("Please verify that you are not a robot.");
-      }
       return;
     }
   
@@ -177,7 +174,7 @@ const Form = () => {
           const newLoadings = [...prevLoadings];
           newLoadings[index] = false;
           if (captchaVerified && validateForm()) {
-            window.location.href = "/whitelist";
+            window.location.href = "/";
           }
           return newLoadings;
         });
