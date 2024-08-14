@@ -375,7 +375,7 @@ const Tyc = () => {
           <ol className="pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
             <li>
               7.1 Allowlist is a state in which a JedAI Feed is tagged as
-              "allowed". Being allow has implications into how the asset is
+              &apos;allowed&apos;. Being allow has implications into how the asset is
               displayed in the JedAI, and whether the asset qualifies for JedAI
               DF rewards.
             </li>
