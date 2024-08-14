@@ -64,7 +64,7 @@ const Header = () => {
           </Link>
           <motion.span
             variants={itemVariants}
-            className={`tracking-[.5px] shadow-sm text-[#ececec] !font-[900] text-[1.02rem] `}
+            className={`tracking-[.5px] shadow-sm text-[#ececec] !font-[900] text-[.95rem] `}
           >
             $200 $STEMS Prize Pool
           </motion.span>
