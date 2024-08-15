@@ -59,8 +59,12 @@ const Header = () => {
           className=" relative top-[2rem] flex justify-center items-center gap-3 flex-col"
           variants={itemVariants}
         >
-          <Link href={"/whitelist"}  >
-            <Button title="Join Whitelist" className="px-[3rem]" />
+          <Link
+            href={"https://jedai-app.brainstems.ai/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button title="Launch JedAI" className="px-[3rem]" />
           </Link>
           <motion.span
             variants={itemVariants}

@@ -54,7 +54,7 @@ const Card: React.FC<CardProps> = ({ title, className, date, time }) => {
     >
       <div className=" absolute top-[1.4rem] right-[1.6rem]">
         <p className="font-bold text-[#fefefe] text-[1.1rem] backdrop-blur-[10px]">
-           {date}
+          {date}
         </p>
       </div>
       <div className=" absolute bottom-[8.5rem] md:bottom-[6.5rem] w-[10rem] right-[-4rem] border border-[#797979] rounded-xl px-4 py-2 bg-[#00000049] backdrop-blur-[10px] border-r-0">
