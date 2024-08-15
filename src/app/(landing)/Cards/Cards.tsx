@@ -118,19 +118,19 @@ const Cards: React.FC = () => {
 
   const cardsData: CardProps[] = [
     {
-      title: "Las Palmas vs Sevilla",
+      title: "U.D Las Palmas vs Sevilla FC",
       className: "card card-1",
       date: "Fri, Aug 16",
       time: "21:30",
     },
     {
-      title: "Milan vs Torino",
+      title: "AC Milan vs Torino",
       className: "card card-2",
       date: "Sat, Aug 17",
       time: "20:45",
     },
     {
-      title: "Man City vs Chelsea",
+      title: "Man City vs Chelsea FC",
       className: "card card-3",
       date: "Sun, Aug 18",
       time: "17:30",
