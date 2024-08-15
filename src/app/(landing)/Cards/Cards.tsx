@@ -7,21 +7,25 @@ import { IntlProvider, FormattedDate, FormattedTime } from "react-intl";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./_cards.css";
-import fontTitle from 'next/font/local'
+import fontTitle from "next/font/local";
 
-const title = fontTitle({ src: '../../../../public/assets/fonts/ClashDisplayBold.woff' });
+const title = fontTitle({
+  src: "../../../../public/assets/fonts/ClashDisplayBold.woff",
+});
 
 // Utility function to convert Spain time (UTC+2) to local time
 const convertToLocalTime = (dateStr: string, timeStr: string): Date => {
-  const [day, month] = dateStr.split(' ');
-  const [hour, minute] = timeStr.split(':').map(Number);
+  const [day, month] = dateStr.split(" ");
+  const [hour, minute] = timeStr.split(":").map(Number);
 
   // Create a date object in Spain time (UTC+2)
   const date = new Date(`${month} ${day}, 2024 ${hour}:${minute}:00 GMT+0200`); // Spain time
 
   // Get the user's local time zone offset
   const localTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  const localDate = new Date(date.toLocaleString("en-US", { timeZone: localTimeZone }));
+  const localDate = new Date(
+    date.toLocaleString("en-US", { timeZone: localTimeZone })
+  );
 
   return localDate;
 };
@@ -36,6 +40,8 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ title, className, date, time }) => {
   const localTime = convertToLocalTime(date, time);
 
+  console.log(localTime);
+
   return (
     <motion.div
       initial={{ opacity: 0.6 }}
@@ -48,13 +54,7 @@ const Card: React.FC<CardProps> = ({ title, className, date, time }) => {
     >
       <div className=" absolute top-[1.4rem] right-[1.6rem]">
         <p className="font-bold text-[#fefefe] text-[1.1rem] backdrop-blur-[10px]">
-          <FormattedDate
-            value={localTime}
-            year="numeric"
-            month="short"
-            day="2-digit"
-            weekday="short"
-          />
+           {date}
         </p>
       </div>
       <div className=" absolute bottom-[8.5rem] md:bottom-[6.5rem] w-[10rem] right-[-4rem] border border-[#797979] rounded-xl px-4 py-2 bg-[#00000049] backdrop-blur-[10px] border-r-0">
@@ -71,10 +71,10 @@ const Card: React.FC<CardProps> = ({ title, className, date, time }) => {
 };
 
 const Cards: React.FC = () => {
-  const [locale, setLocale] = useState<string>('en-US'); // Default locale
+  const [locale, setLocale] = useState<string>("en-US"); // Default locale
 
   useEffect(() => {
-    if (typeof navigator !== 'undefined') {
+    if (typeof navigator !== "undefined") {
       setLocale(navigator.language);
     }
   }, []);
@@ -134,7 +134,7 @@ const Cards: React.FC = () => {
       className: "card card-3",
       date: "Sun, Aug 18",
       time: "17:30",
-    }
+    },
   ];
 
   const itemVariants = {
@@ -156,7 +156,9 @@ const Cards: React.FC = () => {
           viewport={{ once: true }}
           className="w-full flex justify-center lg:justify-center items-center relative overflow-hidden px-[2rem] lg:px-[8rem] xl:px-[11rem]  mb-[3rem] "
         >
-          <h3 className={`${title.className} textPredictive text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center `}>
+          <h3
+            className={`${title.className} textPredictive text-[27px] sm:text-[35px] md:text-[2.8rem] font-[700] md:tracking-[-.5px] leading-[120%] md:leading-[120%] w-full md:w-[80%] text-center `}
+          >
             Predictive Event Selections
           </h3>
         </motion.div>

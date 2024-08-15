@@ -59,7 +59,7 @@ const Header = () => {
           className=" relative top-[2rem] flex justify-center items-center gap-3 flex-col"
           variants={itemVariants}
         >
-          <Link href={"/whitelist"}>
+          <Link href={"/whitelist"}  >
             <Button title="Join Whitelist" className="px-[3rem]" />
           </Link>
           <motion.span

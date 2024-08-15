@@ -1,5 +1,5 @@
 import React from "react";
-import './_button.css';
+import "./_button.css";
 
 interface Props {
   title: string;
