@@ -23,9 +23,7 @@ const NavBar = ({ className, login }: Props) => {
       className={`w-full relative bg-[#0000000] z-[99999] h-[4rem] flex justify-between items-center px-[1rem] md:px-[4rem] py-[3rem]  ${className}`}
     >
       <Link
-        href={"https://jedai-app.brainstems.ai/"}
-        target="_blank"
-        rel="noopener noreferrer"
+        href={"/"}
       >
         <img src="/assets/image/logo.svg" alt="logo" />
       </Link>
