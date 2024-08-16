@@ -64,7 +64,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button title="Launch JedAI" className="px-[3rem]" />
+            <Button title="Start Predicting" className="px-[3rem]" />
           </Link>
           <motion.span
             variants={itemVariants}
