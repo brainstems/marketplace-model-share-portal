@@ -18,8 +18,8 @@ const projectId = "6543013b17d8a4dcd2b963f65f8b48eb";
 
 // 2. Create wagmiConfig
 const metadata = {
-  name: "jedAI",
-  description: "jedAI",
+  name: "marketplace",
+  description: "marketplace",
   url: "https://jedaicrypto.brainstems.ai/", // origin must match your domain & subdomain
   icons: ["/favicon.svg"],
 };

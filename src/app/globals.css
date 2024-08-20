@@ -20,12 +20,12 @@
 }
 
 html {
-  background: #00082f;
+  background: #FEFEFE;
   color: white;
 }
 
 :root {
-  background: #00082f;
+  background: #FEFEFE;
 }
  
 
@@ -39,19 +39,23 @@ html {
   background-color: #7c1dc9;
 }
 
+
+
 ::-webkit-scrollbar {
-  background-color: #060011;
-  width: 15px;
+  width: 14px;
+  background-color: rgb(36, 36, 36);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #897ca8;
+  background: #464646;
   cursor: pointer;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2c2836;
+  background: #383838;
 }
+
+
 
 .Toastify__toast-container {
   z-index: 9999999 !important;

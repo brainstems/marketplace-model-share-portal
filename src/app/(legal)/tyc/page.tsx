@@ -2,10 +2,10 @@ import React from "react";
 
 const Tyc = () => {
   return (
-    <div className="container mx-auto overflow-hidden px-[.8rem] lg:px-[8rem] xl:px-[18rem] flex justify-center items-center flex-col gap-[2rem] mt-[4rem]">
+    <div className=" w-full overflow-hidden px-[.8rem] lg:px-[8rem] xl:px-[18rem] flex justify-center items-center flex-col gap-[2rem] pt-[4rem] bg-[#fefefe] dark:bg-[#141414]">
       <div className="w-full h-full">
         <div className="flex justify-center items-center flex-col gap-3 mb-[4rem]">
-          <h1 className="text-[2.5rem] font-bold text-[#9debff] text-center">
+          <h1 className="text-[2.5rem] font-bold text-[#c2c2c2] text-center">
             Terms and Conditions
           </h1>
           <p className="text-center  mb-8 italic">Last updated: 08/15/2024</p>
@@ -24,7 +24,7 @@ const Tyc = () => {
             legal authority to bind Customer’s entity.
           </p>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             DEFINITIONS
           </h3>
           <ul className="list-disc pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -162,7 +162,7 @@ const Tyc = () => {
             </li>
           </ul>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             1. ACCESS TO AND USE OF THE PLATFORM SERVICES
           </h3>
           <ul className=" pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -212,7 +212,7 @@ const Tyc = () => {
             </li>
           </ul>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             2. MODIFICATIONS
           </h3>
           <ol className=" pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -232,7 +232,7 @@ const Tyc = () => {
             </li>
           </ol>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             3. SECURITY – DATA PROTECTION
           </h3>
           <ol className=" pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -285,7 +285,7 @@ const Tyc = () => {
             </li>
           </ol>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             4 CUSTOMER’S RESPONSIBILITIES
           </h3>
           <ol className="  pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -322,7 +322,7 @@ const Tyc = () => {
             </li>
           </ol>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             5 FEES, PAYMENT
           </h3>
           <ol className="pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -361,7 +361,7 @@ const Tyc = () => {
             </li>
           </ol>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             6 SUSPENSION
           </h3>
           <p>
@@ -390,7 +390,7 @@ const Tyc = () => {
             period of suspension.
           </p>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             7 ALLOWLIST & TERMINATION
           </h3>
           <ol className="pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -410,7 +410,7 @@ const Tyc = () => {
             </li>
           </ol>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             8 INTELLECTUAL PROPERTY RIGHTS AND LICENSE
           </h3>
           <ol className="pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -449,7 +449,7 @@ const Tyc = () => {
             </li>
           </ol>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             9 WARRANTIES; LIMITATIONS OF LIABILITY
           </h3>
           <ol className="pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">
@@ -469,7 +469,7 @@ const Tyc = () => {
             </li>
           </ol>
 
-          <h3 className="text-[1.5rem] font-bold mt-4 text-[#d0f6ff]">
+          <h3 className="text-[1.5rem] font-bold mt-4 text-[#fefefe]">
             10 GOVERNING LAW
           </h3>
           <ol className="pl-6 leading-[140%] flex justify-start items-start gap-7 flex-col mt-[2rem]">

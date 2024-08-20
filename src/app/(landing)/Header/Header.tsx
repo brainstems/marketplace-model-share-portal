@@ -2,78 +2,34 @@
 
 import React from "react";
 import "./_header.css";
-import Link from "next/link";
-import Button from "@/app/ui/Button/Button";
-import { motion } from "framer-motion";
-import fontTitle from "next/font/local";
-
-const title = fontTitle({
-  src: "../../../../public/assets/fonts/ClashDisplayBold.woff",
-});
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5 },
-  },
-};
-
-const staggerVariants = {
-  hidden: { opacity: 0, y: 120 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.5,
-      staggerChildren: 0.3,
-    },
-  },
-};
+import FilterHeader from "./Filters/FilterHeader";
+ 
 
 const Header = () => {
   return (
-    <div className="header relative w-full min-h-[100vh] top-[-5rem] bg-[#00082F] flex justify-center items-center flex-col ">
-      <motion.div
-        variants={staggerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        className="flex flex-col gap-2 justify-center items-center top-[-7rem] relative text-center px-4"
-      >
-        <motion.h1
-          variants={itemVariants}
-          className={` ${title.className} titleHead text-[35px] sm:text-[40px] md:text-[69px] font-[900] tracking-[-.5px] sm:tracking-[-1px] leading-[120%] `}
-        >
-          Unlock the Power of JedAi
-        </motion.h1>
-        <motion.span
-          variants={itemVariants}
-          className="text-[18px] md:text-[24px]"
-        >
-          Experience the Future of AI with Early Access
-        </motion.span>
+    <div className="header relative w-full flex flex-col gap-[2rem] text-[#010101] dark:text-[#fefefe]">
+      <div className="flex justify-between gap-3 w-full h-full mt-[4rem]">
+        <div className="flex gap-3 w-full h-full flex-col lg:max-w-[60%]  ">
+          <h1 className="text-[39px] 2xl:text-[50px] font-bold leading-[130%]">
+            Brainstems Model Shares Portal
+          </h1>
+          <p className="text-[16px] xl:text-[19px] font-[500]  lg:max-w-[80%]">
+            Join the Brainstems Steward Program and participate in our Model
+            Shares initiative. Contribute to Pathway Activations with your
+            $STEMS.
+          </p>
+        </div>
 
-        <motion.div
-          className=" relative top-[2rem] flex justify-center items-center gap-3 flex-col"
-          variants={itemVariants}
-        >
-          <Link
-            href={"https://jedai-app.brainstems.ai/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button title="Start Predicting" className="px-[3rem]" />
-          </Link>
-          <motion.span
-            variants={itemVariants}
-            className={`tracking-[.5px] shadow-sm text-[#ececec] !font-[900] text-[.95rem] `}
-          >
-            $200 $STEMS Prize Pool
-          </motion.span>
-        </motion.div>
-      </motion.div>
+        <div className="flex gap-3  h-full flex-col shadow-sm border border-[#e4e4e4] dark:border-[#4e4e4e83] bg-[#EFB8FF20] dark:bg-[#8670d4] w-[20rem] xl:w-[25rem] p-4 rounded-xl rounded-br-none">
+          <p className="text-[16px] xl:text-[19px] font-[500]">
+            Don’t know how to identify the elements in the cards?
+          </p>
+          <strong className="underline font-bold cursor-pointer">
+            Learn more here
+          </strong>
+        </div>
+      </div>
+      <FilterHeader />
     </div>
   );
 };

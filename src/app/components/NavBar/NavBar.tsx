@@ -1,8 +1,6 @@
-"use client";
-
-import Button from "@/app/ui/Button/Button";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
+import Button from "../../ui/Button/Button";
 
 interface Props {
   className?: string;
@@ -11,30 +9,24 @@ interface Props {
 
 const NavBar = ({ className, login }: Props) => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{
-        delay: 0.2,
-        duration: 0.8,
-        ease: "easeInOut",
-      }}
-      className={`w-full relative bg-[#0000000] z-[99999] h-[4rem] flex justify-between items-center px-[1rem] md:px-[4rem] py-[3rem]  ${className}`}
+    <div
+      className={`w-full relative !z-[100] h-[78px] sm:h-[98px]  bg-[#fefefe] dark:bg-[#0f0f0f] flex justify-end sm:justify-between items-center px-[.5rem]  2xs:px-[1rem] shadow-xl sm:px-[1rem]  2sm:px-[2rem]  md:px-[3rem] dark:border-b dark:border-[#616161]  ${className}`}
     >
-      <Link
-        href={"/"}
-      >
-        <img src="/assets/image/logo.svg" alt="logo" />
+      <Link href={"/"}>
+        <img src="/assets/image/logo.svg" alt="logo" className="dark:hidden " />
+        <img src="/assets/image/logoWhite.svg" alt="logo" className="hidden dark:block" />
       </Link>
+      <div className=" flex justify-center items-center gap-[4rem]">
+        <Link href={"/whitelist"}>
+          <Button
+            title="Whitelist"
+            className="px-[2.5rem] py-[.6rem] !text-[1rem]"
+          />
+        </Link>
 
-      <Link href={"/whitelist"}>
-        <Button
-          title="Whitelist"
-          className="px-[2.5rem] py-[.6rem] !text-[1rem]"
-        />
-      </Link>
-    </motion.div>
+        <ThemeSwitch />
+      </div>
+    </div>
   );
 };
 
