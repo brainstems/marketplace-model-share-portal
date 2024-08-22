@@ -22,7 +22,7 @@ const HeaderDetail = ({ route }: Props) => {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbLink href="/">BMS Portal</BreadcrumbLink>
+            <BreadcrumbLink href="/">Trading Floor</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>

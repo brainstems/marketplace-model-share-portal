@@ -16,7 +16,7 @@ const ActivationFederated = ({ view }: Props) => {
       neurons: 4,
       expectedOutcomes: "+$200.000",
       availableShares: 200,
-      pricePerShare: "4.5 USDC",
+      pricePerShare: "4.5 $STEMS",
       id: 1,
     },
     {
@@ -28,7 +28,7 @@ const ActivationFederated = ({ view }: Props) => {
       neurons: 4,
       expectedOutcomes: "+$200.000",
       availableShares: 200,
-      pricePerShare: "4.5 USDC",
+      pricePerShare: "4.5 $STEMS",
       id: 2,
     },
     {
@@ -40,7 +40,7 @@ const ActivationFederated = ({ view }: Props) => {
       neurons: 4,
       expectedOutcomes: "+$200.000",
       availableShares: 200,
-      pricePerShare: "4.5 USDC",
+      pricePerShare: "4.5 $STEMS",
       id: 3,
     },
     {
@@ -52,7 +52,7 @@ const ActivationFederated = ({ view }: Props) => {
       neurons: 4,
       expectedOutcomes: "+$200.000",
       availableShares: 200,
-      pricePerShare: "4.5 USDC",
+      pricePerShare: "4.5 $STEMS",
       id: 4,
     },
   ];

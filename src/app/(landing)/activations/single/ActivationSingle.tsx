@@ -16,7 +16,7 @@ const ActivationSingle = ({ view }: Props) => {
       tags: ["Places", "Sells", "Real Estate", "More"],
       availableShares: 900,
       deployments: 150,
-      price: "0.5 USDC",
+      price: "1000 $STEMS",
       id: 1,
     },
     {
@@ -26,7 +26,7 @@ const ActivationSingle = ({ view }: Props) => {
       subtitle:
         "Our drink distribution process is designed for efficiency and customer satisfaction. We maintain a well-organized inventory and use advanced logistics to deliver quality beverages to your doorstep, all while keeping sustainability in mind.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "2.5 USDC",
+      reservePrice: "1000 $STEMS",
       id: 2,
     },
     {
@@ -36,7 +36,7 @@ const ActivationSingle = ({ view }: Props) => {
       subtitle:
         "Our drink distribution process is designed for efficiency and customer satisfaction. We maintain a well-organized inventory and use advanced logistics to deliver quality beverages to your doorstep, all while keeping sustainability in mind.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "2.5 USDC",
+      reservePrice: "1000 $STEMS",
       id: 3,
     },
     {
@@ -46,7 +46,7 @@ const ActivationSingle = ({ view }: Props) => {
       subtitle:
         "Our drink distribution process is designed for efficiency and customer satisfaction. We maintain a well-organized inventory and use advanced logistics to deliver quality beverages to your doorstep, all while keeping sustainability in mind.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "2.5 USDC",
+      reservePrice: "1000 $STEMS",
       id: 4,
     },
   ];
@@ -121,28 +121,28 @@ const ActivationSingle = ({ view }: Props) => {
 
             {card.running ? (
               <div
-                className={` flex justify-between text-sm mb-2 items-start w-full pt-4 ${
+                className={` flex justify-between relative text-sm mb-2 items-start w-full pt-4 ${
                   view !== "list"
                     ? " border-t h-[4rem]  dark:border-[#353535]"
                     : " min-w-[30rem] md:min-w-[40rem]"
                 }   `}
               >
-                <div className="flex flex-col justify-between items-center text-center w-full text-[17px] font-semibold ">
+                <div className="flex flex-col min-w-[6rem] justify-between items-center text-center w-full text-[17px] font-semibold ">
                   {card.availableShares}
-                  <span className="text-[15px] font-normal text-[#818181] dark:text-[#c5c5c5]">
+                  <span className="text-[14px] font-normal text-[#818181] dark:text-[#c5c5c5]">
                     Available Shares
                   </span>
                 </div>
-                <div className="flex flex-col justify-between items-center text-center w-full text-[17px] font-semibold">
+                <div className="flex flex-col min-w-[6rem] justify-between items-center text-center w-full text-[17px] font-semibold">
                   {card.deployments}
-                  <span className="text-[15px] font-normal text-[#818181] dark:text-[#c5c5c5]">
+                  <span className="text-[14px] font-normal text-[#818181] dark:text-[#c5c5c5]">
                     Deployments
                   </span>
                 </div>
-                <div className="flex flex-col justify-between items-center text-center w-full text-[17px] font-semibold">
+                <div className="flex flex-col min-w-[7rem] justify-between items-center text-center w-full text-[16px] font-semibold">
                   {card.price}
-                  <span className="text-[15px] px-4 font-normal text-[#818181] dark:text-[#c5c5c5]">
-                    Starting Price
+                  <span className="text-[14px] px-4 font-normal text-[#818181] dark:text-[#c5c5c5]">
+                    Minimum Stake
                   </span>
                 </div>
               </div>
@@ -177,7 +177,7 @@ const ActivationSingle = ({ view }: Props) => {
                 <div className="flex flex-col justify-between items-center text-center w-full text-[17px] font-semibold pt-4">
                   {card.reservePrice}
                   <span className="text-[15px] font-normal text-[#818181] dark:text-[#c5c5c5]">
-                    Reserve Price
+                    Reserve 
                   </span>
                 </div>
               </div>

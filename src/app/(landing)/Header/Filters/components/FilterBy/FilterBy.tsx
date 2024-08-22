@@ -104,8 +104,8 @@ const FilterBy = () => {
                     className="text-[16px] font-semibold leading-[130%] px-2 py-2 border-2 border-[#d6d6d6] dark:border-[#5a5a5a] rounded-xl focus:border-[#653BA5] relative pr-[3rem] z-[1] bg-transparent"
                   />
 
-                  <span className="absolute top-[2.6rem] right-3 text-[14px] font-medium text-[#c9c9c9] !z-[9999] ">
-                    USDC
+                  <span className="absolute top-[2.6rem] right-3 text-[14px] font-medium text-[#858484] !z-[9999] ">
+                    $STEMS
                   </span>
                 </div>
                 <div className="flex flex-col gap-2 relative">
@@ -116,8 +116,8 @@ const FilterBy = () => {
                     className="text-[16px] font-semibold leading-[130%] px-2 py-2 border-2 border-[#d6d6d6] dark:border-[#5a5a5a] rounded-xl focus:border-[#653BA5] relative pr-[3rem] z-[1] bg-transparent"
                   />
 
-                  <span className="absolute top-[2.6rem] right-3 text-[14px] font-medium text-[#c9c9c9] !z-[9999] ">
-                    USDC
+<span className="absolute top-[2.6rem] right-3 text-[14px] font-medium text-[#858484] !z-[9999] ">
+                    $STEMS
                   </span>
                 </div>
               </div>
