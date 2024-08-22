@@ -10,20 +10,13 @@ interface Props {
 const NavBar = ({ className, login }: Props) => {
   return (
     <div
-      className={`w-full relative !z-[100] h-[78px] sm:h-[98px]  bg-[#fefefe] dark:bg-[#0f0f0f] flex justify-end sm:justify-between items-center px-[.5rem]  2xs:px-[1rem] shadow-xl sm:px-[1rem]  2sm:px-[2rem]  md:px-[3rem] dark:border-b dark:border-[#616161]  ${className}`}
+      className={`w-full relative !z-[100] h-[78px] sm:h-[98px]  bg-[#fefefe] dark:bg-[#0f0f0f] flex justify-between sm:justify-between items-center px-[1rem]  2xs:px-[1rem] shadow-xl sm:px-[1rem]  2sm:px-[2rem]  md:px-[3rem] dark:border-b dark:border-[#616161]  ${className}`}
     >
       <Link href={"/"}>
         <img src="/assets/image/logo.svg" alt="logo" className="dark:hidden " />
         <img src="/assets/image/logoWhite.svg" alt="logo" className="hidden dark:block" />
       </Link>
       <div className=" flex justify-center items-center gap-[4rem]">
-        <Link href={"/whitelist"}>
-          <Button
-            title="Whitelist"
-            className="px-[2.5rem] py-[.6rem] !text-[1rem]"
-          />
-        </Link>
-
         <ThemeSwitch />
       </div>
     </div>

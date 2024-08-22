@@ -17,12 +17,11 @@
     width: 7px;
     height: 6px;
     border-radius: 20px;
-    background-color: #24242421;
+    background-color: #24242418;
   
   }
   
   .boxCards::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background-color: #24242494;
-
+    background-color: #24242459;
   }

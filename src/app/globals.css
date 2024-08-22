@@ -39,20 +39,31 @@ html {
   background-color: #7c1dc9;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
 
+
+/* Para Internet Explorer 10+ */
+input[type=number]::-ms-clear,
+input[type=number]::-ms-reveal {
+    display: none;
+}
 
 ::-webkit-scrollbar {
   width: 14px;
-  background-color: rgb(36, 36, 36);
+  background-color: rgba(36, 36, 36, 0.534);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #464646;
+  background: #464646d7;
   cursor: pointer;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #383838;
+  background: #383838ce;
 }
 
 

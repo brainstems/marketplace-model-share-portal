@@ -5,7 +5,7 @@ import Search from "./components/Search/Search";
 
 const FilterHeader = () => {
   return (
-    <div className="flex gap-4 w-full ">
+    <div className="flex gap-4 w-full flex-col lg:flex-row">
       <FilterBy />
       <SortBy />
       <Search />

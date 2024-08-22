@@ -1,13 +1,17 @@
 import LandingPage from "./(landing)/LandingPage";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
+import Activations from "./(landing)/activations/Activations";
+import Header from "./(landing)/header/Header";
 
 export default function Home() {
   return (
-    <div className="App overflow-hidden bg-[#fcfcfc] dark:bg-[#141414]">
-      <NavBar />
-      <LandingPage />
+    <>
+      <div className="hero flex flex-col gap-[3rem] w-full m-auto xl:max-w-[80%] px-[1.3rem] ">
+        <Header />
+        <Activations />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }

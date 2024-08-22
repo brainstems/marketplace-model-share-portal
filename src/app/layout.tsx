@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "react-toastify/dist/ReactToastify.css";
-import Script from "next/script";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
 import { ThemeProviders } from "../../utils/providers/ThemeProviders";
+import NavBar from "./components/NavBar/NavBar";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -28,7 +28,10 @@ export default function RootLayout({
       <body className={roboto.className}>
         <ThemeProviders>
           <ToastContainer />
-          {children}
+          <div className="App overflow-hidden bg-[#fcfcfc] dark:bg-[#141414]">
+            <NavBar />
+            {children}
+          </div>
         </ThemeProviders>
       </body>
     </html>

@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import React from "react";
 
@@ -54,9 +53,9 @@ const ActivationSingle = ({ view }: Props) => {
 
   return (
     <div
-      className={`boxCards pr-2 relative min-h-[50rem] overflow-hidden overflow-y-scroll pb-[2rem] px-1 ${
+      className={`boxCards pr-2 relative max-h-[50rem] overflow-hidden overflow-y-scroll pb-[2rem] px-1 ${
         view === "box"
-          ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-4"
+          ? "grid grid-cols-1 2sm:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-4"
           : "flex flex-col gap-8"
       }`}
     >
@@ -64,7 +63,7 @@ const ActivationSingle = ({ view }: Props) => {
         <Link href={`/activations/single/${card.id}`} key={index}>
           <div
             key={index}
-            className={`card shadow-xl border dark:border-[#353535] rounded-xl w-full relative  ${
+            className={`card shadow-md border dark:border-[#353535] rounded-xl w-full relative  ${
               view === "box"
                 ? "flex flex-col px-4 py-5 h-[16rem] lg:min-w-[21rem] justify-between xl:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818]"
                 : "boxCards flex items-center justify-between overflow-x-scroll 3xl:overflow-x-hidden overflow-hidden h-[8rem] p-4 bg-[#fefefe] dark:bg-[#181818] w-full"
