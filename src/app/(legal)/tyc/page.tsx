@@ -293,7 +293,7 @@ const Tyc = () => {
               4.1 Customer is responsible for all activities, regardless of
               whether the activities are authorized by Customer or undertaken by
               Customer, Customer’s employees or a third party (including
-              Customer’s contractors, agents or End Users). Brainstems and its
+              Customer’s contractors, Activators or End Users). Brainstems and its
               affiliates are not responsible for unauthorized access to Customer
               Account.
             </li>

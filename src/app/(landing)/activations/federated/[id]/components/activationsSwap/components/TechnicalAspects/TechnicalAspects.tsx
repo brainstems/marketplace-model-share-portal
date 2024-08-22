@@ -22,7 +22,7 @@ const TechnicalAspects = () => {
             alt="user Group"
             className="w-[2rem] h-[2rem]"
           />
-          <strong>2 Intelligent Agents</strong>
+          <strong>2 Intelligent Activators</strong>
           <span>Focused on data scraping and trend analysis</span>
         </div>
         <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed dark:border-[#fefefe50] lg:border-r-0">
