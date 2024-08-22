@@ -1,4 +1,3 @@
-import React from "react";
 import Activations from "./activations/Activations";
 import Header from "./header/Header";
 
