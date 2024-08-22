@@ -5,24 +5,24 @@ const Signal = () => {
     <div className="w-full flex-col gap-2 flex h-full relative px-2">
       <div className="w-full flex gap-[3rem] mt-4  ">
         <div className="flex flex-col  gap-2">
-          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[16px] font-semibold">
+          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[12px] md:text-[16px] font-semibold">
             PRICE / SHARE
           </span>
-          <strong className="tracking-wide">1.8K $STEMS</strong>
+          <strong className="text-[14px] md:text-[16px] tracking-wide ">1.8K $STEMS</strong>
         </div>
 
         <div className="flex flex-col gap-2">
-          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[16px] font-semibold">
+          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[12px] md:text-[16px] font-semibold">
             SHARES
           </span>
-          <strong className="tracking-wide">850.6</strong>
+          <strong className="text-[14px] md:text-[16px] tracking-wide ">850.6</strong>
         </div>
 
         <div className="flex flex-col gap-2">
-          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[16px] font-semibold">
+          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[12px] md:text-[16px] font-semibold">
             TOTAL VALUE
           </span>
-          <strong className="tracking-wide">1.5M</strong>
+          <strong className="text-[14px] md:text-[16px] tracking-wide ">1.5M</strong>
         </div>
       </div>
 

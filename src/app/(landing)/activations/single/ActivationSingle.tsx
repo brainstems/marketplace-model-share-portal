@@ -49,7 +49,6 @@ const ActivationSingle = ({ view }: Props) => {
       reservePrice: "1000 $STEMS",
       id: 4,
     },
-
   ];
 
   return (
@@ -178,7 +177,7 @@ const ActivationSingle = ({ view }: Props) => {
                 <div className="flex flex-col justify-between items-center text-center w-full text-[17px] font-semibold pt-4">
                   {card.reservePrice}
                   <span className="text-[15px] font-normal text-[#818181] dark:text-[#c5c5c5]">
-                    Reserve 
+                    Minimum Stake
                   </span>
                 </div>
               </div>

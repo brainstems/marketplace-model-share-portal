@@ -5,24 +5,24 @@ const Unsignal = () => {
     <div className="w-full flex-col gap-2 flex h-full relative px-2">
       <div className="w-full flex gap-[3rem] mt-4  ">
         <div className="flex flex-col gap-2">
-          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[16px] font-semibold">
+          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[12px] md:text-[16px] font-semibold">
             PRICE / SHARE
           </span>
-          <strong>639.6K $STEMS</strong>
+          <strong className="text-[14px] md:text-[16px] tracking-wide ">639.6K $STEMS</strong>
         </div>
 
         <div className="flex flex-col gap-2">
-          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[16px] font-semibold">
+          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[12px] md:text-[16px] font-semibold">
             SHARES
           </span>
-          <strong>319.8</strong>
+          <strong className="text-[14px] md:text-[16px] tracking-wide ">319.8</strong>
         </div>
 
         <div className="flex flex-col gap-2">
-          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[16px] font-semibold">
+          <span className="text-[#494949] tracking-wide dark:text-[#e2e2e2a2] text-[12px] md:text-[16px] font-semibold">
             TOTAL VALUE
           </span>
-          <strong>204.6K</strong>
+          <strong className="text-[14px] md:text-[16px] tracking-wide ">204.6K</strong>
         </div>
       </div>
 

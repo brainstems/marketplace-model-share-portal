@@ -19,7 +19,7 @@ const Activations = () => {
 
   return (
     <div className=" relative w-full flex min-h-[40rem] flex-col gap-[2rem] text-[#010101] dark:text-[#fefefe]">
-      <div className="flex justify-between flex-col items-end md:items-center md:flex-row w-full gap-4">
+      <div className="flex justify-between flex-col items-center md:flex-row w-full gap-4">
         <div className="flex gap-4">
           <button
             className={`${
@@ -41,7 +41,7 @@ const Activations = () => {
           </button>
         </div>
 
-        <div className="flex gap-4 mt-2 md:mt-0">
+        <div className=" gap-4 mt-2 md:mt-0 hidden md:flex">
           <img
             src="/assets/icons/viewCard.svg"
             className={`flex dark:hidden  ${

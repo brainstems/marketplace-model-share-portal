@@ -142,7 +142,6 @@ const ActivationFederated = ({ view }: Props) => {
                 </div>
               </>
             ) : (
-              // Aquí se renderiza el diseño de box
               <div className="flex flex-col justify-between h-full">
                 <div className="font-semibold text-xl mb-2">{card.title}</div>
                 <div className="flex justify-between gap-2 w-full flex-nowrap ">
