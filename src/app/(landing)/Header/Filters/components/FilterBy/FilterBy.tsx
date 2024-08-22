@@ -103,7 +103,7 @@ const FilterBy = () => {
                     defaultValue={0.01}
                     className="text-[16px] font-semibold leading-[130%] px-2 py-2 border-2 border-[#d6d6d6] dark:border-[#5a5a5a] rounded-xl focus:border-[#653BA5] relative pr-[3rem] z-[1] bg-transparent"
                   />
-                    
+
                   <span className="absolute top-[2.6rem] right-3 text-[14px] font-medium text-[#c9c9c9] !z-[9999] ">
                     USDC
                   </span>
@@ -112,10 +112,10 @@ const FilterBy = () => {
                   <span>Max</span>
                   <input
                     type="number"
-                    defaultValue={0.50}
+                    defaultValue={0.5}
                     className="text-[16px] font-semibold leading-[130%] px-2 py-2 border-2 border-[#d6d6d6] dark:border-[#5a5a5a] rounded-xl focus:border-[#653BA5] relative pr-[3rem] z-[1] bg-transparent"
                   />
-                    
+
                   <span className="absolute top-[2.6rem] right-3 text-[14px] font-medium text-[#c9c9c9] !z-[9999] ">
                     USDC
                   </span>
@@ -124,11 +124,19 @@ const FilterBy = () => {
             </div>
 
             <div className=" flex justify-center items-center w-full flex-col gap-3 mt-4">
-              <div className="w-full px-2 h-[3.5rem] rounded-xl bg-[#653BA5] text-[18px] font-semibold text-[#efefef] flex justify-center items-center tracking-wide cursor-pointer" onClick={handleOpenChange}>
+              <div
+                className="w-full px-2 h-[3.5rem] rounded-xl bg-[#653BA5] text-[18px] font-semibold text-[#efefef] flex justify-center items-center tracking-wide cursor-pointer"
+                onClick={handleOpenChange}
+              >
                 Apply now
               </div>
 
-              <strong className="cursor-pointer font-[500] text-[17px] text-[#222222] dark:text-[#efefef]" onClick={handleOpenChange}>Reset all filters</strong>
+              <strong
+                className="cursor-pointer font-[500] text-[17px] text-[#222222] dark:text-[#efefef]"
+                onClick={handleOpenChange}
+              >
+                Reset all filters
+              </strong>
             </div>
           </div>
         </div>

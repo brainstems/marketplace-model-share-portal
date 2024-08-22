@@ -1,5 +1,4 @@
 "use client";
-import "./_header.css";
 import FilterHeader from "./Filters/FilterHeader";
 
 const Header = () => {
