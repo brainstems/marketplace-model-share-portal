@@ -1,5 +1,5 @@
+import Header from "./Header/Header";
 import Activations from "./activations/Activations";
-import Header from "./header/Header";
 
 const LandingPage = () => {
   return (
