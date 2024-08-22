@@ -15,7 +15,7 @@ const PoolTogether = () => {
       <div className="flex gap-4  relative py-2 px-2 ">
         <button
           className={`${
-            active === "signal" ? " text-[#222222] dark:text-[#e0e0e0] shadow-sm  border-b-2 border-b-[#9357ec]  " : " text-[#5f5f5f] dark:text-[#222222] border-b-2 border-b-transparent "
+            active === "signal" ? " text-[#222222] dark:text-[#e0e0e0] shadow-sm  border-b-2 border-b-[#9357ec]  " : " text-[#5f5f5f] dark:text-[#afafaf] border-b-2 border-b-transparent "
           } font-semibold flex transition-all duration-300 text-[18px] leading-[2rem] `}
           onClick={() => handleActive("signal")}
         >
@@ -23,7 +23,7 @@ const PoolTogether = () => {
         </button>
         <button
           className={`${
-            active === "unsignal" ? " text-[#222222] dark:text-[#e0e0e0] shadow-sm  border-b-2 border-b-[#9357ec]  " : " text-[#5f5f5f] dark:text-[#222222] border-b-2 border-b-transparent "
+            active === "unsignal" ? " text-[#222222] dark:text-[#e0e0e0] shadow-sm  border-b-2 border-b-[#9357ec]  " : " text-[#5f5f5f] dark:text-[#afafaf] border-b-2 border-b-transparent "
           } font-semibold flex transition-all duration-300 text-[18px] leading-[2rem] `}
           onClick={() => handleActive("unsignal")}
         >
