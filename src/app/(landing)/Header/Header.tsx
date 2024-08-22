@@ -1,6 +1,4 @@
 "use client";
-
-import React from "react";
 import "./_header.css";
 import FilterHeader from "./Filters/FilterHeader";
 

@@ -1,3 +1,4 @@
+
 import Footer from "./components/Footer/Footer";
 import Activations from "./(landing)/activations/Activations";
 import Header from "./(landing)/header/Header";
