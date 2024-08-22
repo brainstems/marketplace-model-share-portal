@@ -16,19 +16,19 @@ const ActivationsSwap = () => {
         <button
           className={`${
             active === "ActivationOutcomes"
-              ? "bg-[#653BA5] text-[#fefefe] shadow-sm border border-[#d6d6d6fe] dark:border-[#525252fe] "
+              ? "bg-[#653BA5] text-[#fefefe] shadow-sm "
               : "bg-[#00000000]"
-          } font-semibold md:min-w-[13rem] h-[3.2rem] flex justify-center items-center px-2 md:px-5  rounded-full transition-all duration-300 md:text-[1rem] text-[.9rem] leading-[120%] `}
+            } font-semibold md:min-w-[13rem] h-[3.2rem] flex justify-center items-center px-2 md:px-5 rounded-full transition-all duration-300 md:text-[1rem] text-[.9rem] leading-[120%]`}
           onClick={() => handleActive("ActivationOutcomes")}
         >
           Activation Outcomes
         </button>
         <button
-          className={`${
-            active === "TechnicalAspects"
-              ? "bg-[#653BA5]  text-[#fefefe] shadow-sm border border-[#d6d6d6fe] dark:border-[#525252fe] "
-              : "bg-[#00000000]"
-          } font-semibold md:min-w-[13rem] h-[3.2rem] flex justify-center items-center px-2 md:px-5  rounded-full transition-all duration-300 md:text-[1rem] text-[.9rem] leading-[120%] `}
+         className={`${
+          active === "TechnicalAspects"
+            ? "bg-[#653BA5]  text-[#fefefe] shadow-sm "
+            : "bg-[#00000000]"
+        } font-semibold md:min-w-[13rem] h-[3.2rem] flex justify-center items-center px-2 md:px-5 rounded-full transition-all duration-300 md:text-[1rem] text-[.9rem] leading-[120%]`}
           onClick={() => handleActive("TechnicalAspects")}
         >
           Technical Aspects
