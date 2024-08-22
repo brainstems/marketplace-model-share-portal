@@ -106,12 +106,12 @@ const Signal = () => {
       </div>
 
       <div className="w-full flex  md:flex-row flex-col justify-start gap-4 mt-[2rem]">
-        <button className="w-full px-9 h-[3.5rem] rounded-xl bg-[#7b50bd5d] text-[18px] font-semibold text-[#efefef] flex justify-center items-center tracking-wide cursor-pointer">
+        <button className="w-full px-9 h-[3.5rem] rounded-xl bg-[#653BA5] text-[18px] font-semibold text-[#efefef] flex justify-center items-center tracking-wide cursor-pointer">
           Approve 0 STEMS
         </button>
-        <button className="w-full px-9 h-[3.5rem] rounded-xl bg-[#653BA5] text-[18px] font-semibold text-[#efefef] flex justify-center items-center tracking-wide cursor-pointer">
+        {/* <button className="w-full px-9 h-[3.5rem] rounded-xl bg-[#653BA5] text-[18px] font-semibold text-[#efefef] flex justify-center items-center tracking-wide cursor-pointer">
           Infinite Approve
-        </button>
+        </button> */}
       </div>
     </div>
   );
