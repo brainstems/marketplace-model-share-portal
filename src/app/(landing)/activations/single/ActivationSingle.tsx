@@ -30,7 +30,7 @@ const ActivationSingle = ({ view }: Props) => {
       id: 2,
     },
     {
-      title: "Prioritizing Customers for Optimal Return from my Sales Team",
+      title: "Identifying Where to Sell My Seasonal or Holiday Product (s)",
       type: "Single",
       running: false,
       subtitle:
@@ -40,7 +40,7 @@ const ActivationSingle = ({ view }: Props) => {
       id: 3,
     },
     {
-      title: "Prioritizing Customers for Optimal Return from my Sales Team",
+      title: "Fast foods-USA",
       type: "Single",
       running: false,
       subtitle:
@@ -49,6 +49,7 @@ const ActivationSingle = ({ view }: Props) => {
       reservePrice: "1000 $STEMS",
       id: 4,
     },
+
   ];
 
   return (

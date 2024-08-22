@@ -22,12 +22,8 @@ interface Props {
 }
 
 const HeaderDetail = ({ route }: Props) => {
-  const [action, setAction] = useState<boolean>(false);
-
-  const handleAction = () => {
-    setAction(!action);
-  };
-
+ 
+ 
   return (
     <div className="w-full h-full relative gap-[2rem] flex flex-col">
       <Breadcrumb>
@@ -47,8 +43,8 @@ const HeaderDetail = ({ route }: Props) => {
       </Breadcrumb>
 
       <div className="flex flex-col md:flex-row w-full gap-6 justify-start items-start md:items-center  mt-[2rem] ">
-        <h2 className="md:text-[31px] text-[27px] font-bold leading-[130%]">
-          Propensity Opportunity Score
+        <h2 className="md:text-[31px] text-[27px] font-bold leading-[130%] max-w-[30rem]" >
+          {route}
         </h2>
         <div className=" flex gap-4">
           <div className="sm:px-6 px-3 py-2 flex gap-4 text-[14px] sm:text-[20px] text-[#141414] dark:text-[#141414] bg-[#E6D2FF] border rounded-full font-semibold leading-[130%]">

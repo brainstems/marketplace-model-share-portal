@@ -20,7 +20,7 @@ const ActivationFederated = ({ view }: Props) => {
       id: 1,
     },
     {
-      title: "Find whitespaces",
+      title: "Distributions of drinks",
       type: "Federated",
       subtitle:
         "Our drink distribution process is designed for efficiency and customer satisfaction. We maintain a well-organized inventory and use advanced logistics to deliver quality beverages to your doorstep, all while keeping sustainability in mind.",
@@ -32,7 +32,7 @@ const ActivationFederated = ({ view }: Props) => {
       id: 2,
     },
     {
-      title: "Find whitespaces",
+      title: "Find whitespaces ",
       type: "Federated",
       subtitle:
         "Our drink distribution process is designed for efficiency and customer satisfaction. We maintain a well-organized inventory and use advanced logistics to deliver quality beverages to your doorstep, all while keeping sustainability in mind.",
@@ -44,7 +44,7 @@ const ActivationFederated = ({ view }: Props) => {
       id: 3,
     },
     {
-      title: "Find whitespaces",
+      title: "Distributions of drinks",
       type: "Federated",
       subtitle:
         "Our drink distribution process is designed for efficiency and customer satisfaction. We maintain a well-organized inventory and use advanced logistics to deliver quality beverages to your doorstep, all while keeping sustainability in mind.",
