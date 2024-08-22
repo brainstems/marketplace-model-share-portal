@@ -9,7 +9,7 @@ const Header = () => {
       <div className="flex md:flex-row flex-col justify-between gap-3 w-full h-full mt-[4rem]">
         <div className="flex gap-3  w-full h-full flex-col lg:max-w-[60%]  ">
           <h1 className="text-[39px] 2xl:text-[50px] font-bold leading-[130%]">
-            Brainstems Model Shares Portal
+            Ecosystem dashboard
           </h1>
           <p className="text-[16px] xl:text-[19px] font-[500]  lg:max-w-[80%]">
             Join the Brainstems Steward Program and participate in our Model
