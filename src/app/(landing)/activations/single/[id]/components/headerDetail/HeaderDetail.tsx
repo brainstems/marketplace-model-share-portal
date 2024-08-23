@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -22,8 +22,6 @@ interface Props {
 }
 
 const HeaderDetail = ({ route }: Props) => {
- 
- 
   return (
     <div className="w-full h-full relative gap-[2rem] flex flex-col">
       <Breadcrumb>
@@ -43,7 +41,7 @@ const HeaderDetail = ({ route }: Props) => {
       </Breadcrumb>
 
       <div className="flex flex-col md:flex-row w-full gap-6 justify-start items-start md:items-center  md:mt-[2rem] ">
-        <h2 className="md:text-[31px] text-[27px] font-bold leading-[130%] max-w-[30rem]" >
+        <h2 className="md:text-[31px] text-[27px] font-bold leading-[130%] max-w-[30rem]">
           {route}
         </h2>
         <div className=" flex gap-4">
@@ -57,17 +55,17 @@ const HeaderDetail = ({ route }: Props) => {
       </div>
 
       <div className="flex flex-row w-full h-full flex-wrap gap-2 justify-start items-center ">
-        <span className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          Food Service
-        </span>
+        <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
+          Gaming
+        </div>
 
-        <span className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50] relative dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          Opportunity Score
-        </span>
+        <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
+          Engagement
+        </div>
 
-        <span className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50] dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          Sales
-        </span>
+        <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
+          Global experience
+        </div>
       </div>
 
       <div className="flex flex-col gap-3 mt-4">
@@ -75,9 +73,13 @@ const HeaderDetail = ({ route }: Props) => {
           Description
         </span>
         <p className="text-[16px]  leading-[130%]">
-          Find Whitespaces Federated deployment allows you to customize the
-          influence of other participants based on your specific requirements
-          and needs. This Deployment is part of the ACME + 8 Pathway.
+          Player Engagement and Satisfaction Metrics using Gamer Profile:
+          Leveraging advanced deep-learning algorithms and predictive analytics,
+          this AI model aggregates and analyzes data from multiple gaming
+          platforms to create a comprehensive Global Gamer Profile. This profile
+          includes player activities, preferences, and behaviors to offer
+          insights that enhance personalized player experiences and boost
+          satisfaction.
         </p>
       </div>
 

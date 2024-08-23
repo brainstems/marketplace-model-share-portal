@@ -1,22 +1,52 @@
 [
-    {
-        "id": 1,
-        "name": "Find whitespaces",
-        "type": "federated"
-      },
-      {
-        "id": 2,
-        "name": "Distributions of drinks",
-        "type": "federated"
-      },
-      {
-        "id": 3,
-        "name": "Find whitespaces ",
-        "type": "federated"
-      },
-      {
-        "id": 4,
-        "name": "Distributions of drinks",
-        "type": "federated"
-      }
-  ]
+  {
+    "id": 1,
+    "name": "Player Eng. and Satisfaction",
+    "type": "federated"
+  },
+  {
+    "id": 2,
+    "name": "In-Game Economy and Rewards System",
+    "type": "federated"
+  },
+  {
+    "id": 3,
+    "name": "Seamless Onboarding and User Experience",
+    "type": "federated"
+  },
+  {
+    "id": 4,
+    "name": "Find whitespaces",
+    "type": "federated"
+  },
+  {
+    "id": 5,
+    "name": "Distributions of drinks",
+    "type": "federated"
+  },
+  {
+    "id": 6,
+    "name": "Precision Demand Forecasting",
+    "type": "federated"
+  },
+  {
+    "id": 7,
+    "name": "Dynamic Menu Planning",
+    "type": "federated"
+  },
+  {
+    "id": 8,
+    "name": "Efficient Stock Replenishment",
+    "type": "federated"
+  },
+  {
+    "id": 9,
+    "name": "Seamless Order Coordination",
+    "type": "federated"
+  },
+  {
+    "id": 10,
+    "name": "Real-Time Ingredient Tracking",
+    "type": "federated"
+  }
+]

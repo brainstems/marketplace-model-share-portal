@@ -1,22 +1,49 @@
 [
     {
       "id": 1,
-      "name": "Optimizing Product Mix for Sales",
+      "name": "Player Eng. and Satisfaction",
       "type": "single"
     },
     {
       "id": 2,
-      "name": "Prioritizing Customers for Optimal Return from my Sales Team ",
+      "name": "Optimizing Product Mix for Sales",
       "type": "single"
     },
     {
       "id": 3,
-      "name": "Identifying Where to Sell My Seasonal or Holiday Product (s)",
+      "name": "Prioritizing Customers for Optimal Return from my Sales Team ",
       "type": "single"
     },
     {
       "id": 4,
-      "name": "Fast foods-USA",
+      "name": "Identifying Where to Sell My Seasonal or Holiday Product (s)",
+      "type": "single"
+    },
+    {
+      "id": 5,
+      "name": "Smart Inventory Optimization",
+      "type": "single"
+    },
+    {
+      "id": 6,
+      "name": "Advanced Supply Chain Analysis",
+      "type": "single"
+    },
+    {
+      "id": 7,
+      "name": "Innovative Recipe Management",
+      "type": "single"
+    },
+    {
+      "id": 8,
+      "name": "Comprehensive Quality Assurance",
+      "type": "single"
+    },
+    {
+      "id": 9,
+      "name": "Strategic Purchase Planning",
       "type": "single"
     }
+
+   
   ]

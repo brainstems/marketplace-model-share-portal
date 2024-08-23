@@ -28,12 +28,12 @@ const CompanyInvolved = () => {
               alt="chart"
               className="w-[2rem] absolute left-9"
             />
-            Main Beverage Company based on US
+            IMMUTABLE Games
           </AccordionTrigger>
           <AccordionContent>
             <ul className="flex gap-6 md:gap-3 flex-col list-disc list-inside py-[.5rem]">
               <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Identifying Where to Sell My Product(s){" "}
+                Global Gamer Profile 
                 <div className="flex  gap-2">
                   <img
                     src="/assets/icons/gear.svg"
@@ -46,7 +46,7 @@ const CompanyInvolved = () => {
                 </div>
               </li>
               <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Prioritizing Customers for Optimal Return from my Sales Team
+                Player Engagement
                 <div className="flex gap-2">
                   <img
                     src="/assets/icons/play.svg"
@@ -59,7 +59,7 @@ const CompanyInvolved = () => {
                 </div>
               </li>
               <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Identifying Where to Sell My Seasonal or Holiday Product (s)
+                Satisfaction Metrics
                 <div className="flex gap-2">
                   <img
                     src="/assets/icons/rocket.svg"
@@ -84,50 +84,10 @@ const CompanyInvolved = () => {
               alt="chart"
               className="w-[2rem] absolute left-9"
             />
-            Sparkling Water Company
+            Gala Games
           </AccordionTrigger>
           <AccordionContent>
-            <ul className="flex gap-6 md:gap-3 flex-col list-disc list-inside py-[.5rem]">
-              <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Identifying Where to Sell My Product(s){" "}
-                <div className="flex gap-2">
-                  <img
-                    src="/assets/icons/gear.svg"
-                    alt="gear"
-                    className="w-[1rem] h-[1rem]"
-                  />
-                  <span className="text-[14px] text-[#39137A] dark:text-[#ad9bff] font-semibold">
-                    Configuration
-                  </span>
-                </div>
-              </li>
-              <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Prioritizing Customers for Optimal Return from my Sales Team
-                <div className="flex gap-2">
-                  <img
-                    src="/assets/icons/play.svg"
-                    alt="play"
-                    className="w-[1rem] h-[1rem]"
-                  />
-                  <span className="text-[14px] text-[#39137A] dark:text-[#ad9bff]  font-semibold">
-                    Operationalize
-                  </span>
-                </div>
-              </li>
-              <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Identifying Where to Sell My Seasonal or Holiday Product (s)
-                <div className="flex gap-2">
-                  <img
-                    src="/assets/icons/rocket.svg"
-                    alt="rocket"
-                    className="w-[1rem] h-[1rem]"
-                  />
-                  <span className="text-[14px] text-[#39137A] dark:text-[#ad9bff]  font-semibold">
-                    Deploy
-                  </span>
-                </div>
-              </li>
-            </ul>
+           
           </AccordionContent>
         </AccordionItem>
         <AccordionItem
@@ -140,50 +100,10 @@ const CompanyInvolved = () => {
               alt="chart"
               className="w-[2rem] absolute left-9"
             />
-            Top Food & Drinks Delivery Company{" "}
+            Vulcan Forged
           </AccordionTrigger>
           <AccordionContent>
-            <ul className="flex gap-6 md:gap-3 flex-col list-disc list-inside py-[.5rem]">
-              <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Identifying Where to Sell My Product(s){" "}
-                <div className="flex gap-2">
-                  <img
-                    src="/assets/icons/gear.svg"
-                    alt="gear"
-                    className="w-[1rem] h-[1rem]"
-                  />
-                  <span className="text-[14px] text-[#39137A] dark:text-[#ad9bff] font-semibold">
-                    Configuration
-                  </span>
-                </div>
-              </li>
-              <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Prioritizing Customers for Optimal Return from my Sales Team
-                <div className="flex gap-2">
-                  <img
-                    src="/assets/icons/play.svg"
-                    alt="play"
-                    className="w-[1rem] h-[1rem]"
-                  />
-                  <span className="text-[14px] text-[#39137A] dark:text-[#ad9bff]  font-semibold">
-                    Operationalize
-                  </span>
-                </div>
-              </li>
-              <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Identifying Where to Sell My Seasonal or Holiday Product (s)
-                <div className="flex gap-2">
-                  <img
-                    src="/assets/icons/rocket.svg"
-                    alt="rocket"
-                    className="w-[1rem] h-[1rem]"
-                  />
-                  <span className="text-[14px] text-[#39137A] dark:text-[#ad9bff]  font-semibold">
-                    Deploy
-                  </span>
-                </div>
-              </li>
-            </ul>
+            
           </AccordionContent>
         </AccordionItem>
       </Accordion>

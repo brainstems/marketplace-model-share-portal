@@ -7,6 +7,8 @@ import ActivationsSwap from "./components/activationsSwap/ActivationsSwap";
 import ActivationsDetail from "./components/activationsDetail/ActivationsDetail";
 import PoolTogether from "./components/poolTogether/PoolTogether";
 import dataNames from './components/dataNames.json';
+import RequestSolution from "./components/requestSolution/RequestSolution";
+import Footer from "@/src/app/components/Footer/Footer";
 
 interface PageProps {
   params: { id: string };
@@ -36,7 +38,9 @@ const Page = ({ params }: PageProps) => {
       <CompanyInvolved />
       <PoolTogether />
       <ActivationsSwap />
+      <RequestSolution />
       <ActivationsDetail />
+      <Footer />
     </div>
   );
 };

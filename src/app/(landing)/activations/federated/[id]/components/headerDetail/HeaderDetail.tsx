@@ -42,27 +42,17 @@ const HeaderDetail = ({ route }: Props) => {
 
       <div className="flex flex-row w-full h-full flex-wrap gap-2 justify-start items-center">
         <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          Food Service
+          Gaming
         </div>
 
         <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          ACME+8
+          Engagement
         </div>
 
         <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          Delivery
+          Global experience
         </div>
 
-        <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          Distribution
-        </div>
-
-        <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          Water
-        </div>
-        <div className="px-6 py-2 flex gap-4 text-[12px] md:text-[16px] text-[#141414] dark:text-[#141414] bg-[#DDDDDD50]  dark:bg-[#d8d8d8] rounded-full leading-[130%] font-semibold border dark:border-0 truncate">
-          Food & Drinks
-        </div>
       </div>
 
       <div className="flex flex-col gap-3">
@@ -70,9 +60,7 @@ const HeaderDetail = ({ route }: Props) => {
           Description
         </span>
         <p className="text-[16px]  leading-[130%]">
-          Find Whitespaces Federated deployment allows you to customize the
-          influence of other participants based on your specific requirements
-          and needs. This Deployment is part of the ACME + 8 Pathway.
+          Player Engagement and Satisfaction Metrics using Gamer Profile:  Leveraging advanced deep-learning algorithms and predictive analytics, this AI model aggregates and analyzes data from multiple gaming platforms to create a comprehensive Global Gamer Profile. This profile includes player activities, preferences, and behaviors to offer insights that enhance personalized player experiences and boost satisfaction. 
         </p>
       </div>
     </div>
