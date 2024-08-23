@@ -143,7 +143,7 @@ const ActivationFederated = ({ view }: Props) => {
             key={index}
             className={`card border shadow-md dark:border-[#353535] rounded-xl w-full relative ${
               view === "box"
-                ? "flex flex-col px-4 py-5 h-[19rem]  lg:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818]"
+                ? "flex flex-col px-4 py-5 h-[20rem]  lg:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818]"
                 : "boxCards flex items-center justify-between overflow-x-scroll 3xl:overflow-x-hidden overflow-hidden h-[11rem] p-4 bg-[#fefefe] dark:bg-[#181818] w-full"
             }`}
           >
@@ -215,14 +215,14 @@ const ActivationFederated = ({ view }: Props) => {
               </>
             ) : (
               <div className="flex flex-col justify-between h-full">
-                <span className="font-semibold text-[19px]">{card.title}</span>
-                <div className="flex justify-between gap-2 w-full flex-nowrap ">
-                  <span className="bg-[#E6D2FF] dark:bg-[#c7bcf0] text-sm font-semibold text-[#141414] dark:text-[#141414] px-2 flex justify-center items-center w-[6rem] h-[1.8rem] py-1 rounded-full">
-                    {card.type}
-                  </span>
+                <span className="font-semibold text-[19px] h-[4rem] ">{card.title}</span>
+                <div className="flex justify-between gap-2 w-full flex-nowrap flex-col ">
                   <p className="text-sm mb-4 text-[#141414] dark:text-[#d6d6d6]  descriptionCard">
                     {card.subtitle}
                   </p>
+                  <span className="bg-[#E6D2FF] dark:bg-[#c7bcf0] text-sm font-semibold text-[#141414] dark:text-[#141414] px-2 flex justify-center items-center  w-[6rem] h-[1.8rem] pt-1 rounded-full mb-2">
+                    {card.type}
+                  </span>
                 </div>
                 <div className="flex gap-2 mb-4">
                   {card.tags.slice(0, 3).map((tag, i) => (
