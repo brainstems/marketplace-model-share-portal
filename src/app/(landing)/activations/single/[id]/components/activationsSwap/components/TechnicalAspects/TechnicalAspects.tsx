@@ -23,7 +23,10 @@ const TechnicalAspects = () => {
             className="w-[2rem] h-[2rem]"
           />
           <strong>2 Intelligent Activators</strong>
-          <span>Focused on data scraping and trend analysis</span>
+          <span>
+            Optimizes financial planning and forecasts the impact of game
+            updates to guide strategic decisions in gaming projects.
+          </span>
         </div>
         <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed dark:border-[#fefefe50] lg:border-r-0">
           <img
@@ -79,7 +82,7 @@ const TechnicalAspects = () => {
           </span>
         </div>
         <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed 2md:border-r-0 dark:border-[#fefefe50]">
-          <img 
+          <img
             src="/assets/icons/chart2.svg"
             alt="chart"
             className="w-[2rem] h-[2rem]"
