@@ -178,7 +178,7 @@ const ActivationSingle = ({ view }: Props) => {
                   : "flex flex-col min-w-[17rem] md:min-w-[25rem] w-full pr-4 pt-3  "
               }   `}
             >
-              <span className="font-semibold text-[19px] xl:min-h-[3.64rem] realtive descriptionCard">
+              <span className="font-semibold text-[19px] min-h-[3.64rem] realtive descriptionCard">
                 {card.title}
               </span>
               <p

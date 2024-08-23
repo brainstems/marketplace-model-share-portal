@@ -215,7 +215,7 @@ const ActivationFederated = ({ view }: Props) => {
               </>
             ) : (
               <div className="flex flex-col justify-between h-full">
-                <span className="font-semibold text-[19px] xl:min-h-[3.94rem] realtive descriptionCard">
+                <span className="font-semibold text-[19px] min-h-[3.94rem] realtive descriptionCard">
                   {card.title}
                 </span>
                 <div className="flex justify-between gap-2 w-full flex-nowrap flex-col ">
