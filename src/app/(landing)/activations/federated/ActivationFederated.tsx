@@ -8,7 +8,7 @@ interface Props {
 const ActivationFederated = ({ view }: Props) => {
   const cardData = [
     {
-      title: "Player Eng. and Satisfaction ",
+      title: "Player Engagement and Satisfaction ",
       type: "Federated",
       subtitle:
         "Player Engagement and Satisfaction Metrics using Gamer Profile:  Leveraging advanced deep-learning algorithms and predictive analytics, this AI model aggregates and analyzes data from multiple gaming platforms to create a comprehensive Global Gamer Profile. This profile includes player activities, preferences, and behaviors to offer insights that enhance personalized player experiences and boost satisfaction. ",
@@ -61,7 +61,7 @@ const ActivationFederated = ({ view }: Props) => {
       subtitle:
         "Our drink distribution process is designed for efficiency and customer satisfaction. We maintain a well-organized inventory and use advanced logistics to deliver quality beverages to your doorstep, all while keeping sustainability in mind.",
       tags: ["Food service", "ACME+8", "Delivery", "More"],
-      neurons:2,
+      neurons: 2,
       expectedOutcomes: "+$153.000",
       availableShares: 1500,
       pricePerShare: "4.5 $STEMS",
@@ -109,7 +109,7 @@ const ActivationFederated = ({ view }: Props) => {
       subtitle:
         "Coordinate orders seamlessly to improve fulfillment and operational efficiency.",
       tags: ["Food service", "ACME+8", "Delivery", "More"],
-      neurons:3,
+      neurons: 3,
       expectedOutcomes: "+$1200",
       availableShares: 894,
       pricePerShare: "4.5 $STEMS",
@@ -133,7 +133,7 @@ const ActivationFederated = ({ view }: Props) => {
     <div
       className={`boxCards pr-2 relative max-h-[50rem] overflow-hidden overflow-y-scroll pb-[2rem] px-1 ${
         view === "box"
-       ? "grid grid-cols-1 2sm:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-4"
+          ? "grid grid-cols-1 2sm:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-4"
           : "flex flex-col gap-8"
       }`}
     >
@@ -156,7 +156,7 @@ const ActivationFederated = ({ view }: Props) => {
                         {card.type}
                       </span>
                     </div>
-                    <span className="font-semibold text-[16px]">
+                    <span className="font-semibold text-[19px]">
                       {card.title}
                     </span>
                     <p className="text-sm mb-4 text-[#141414] dark:text-[#d6d6d6] descriptionCardList w-full h-full ">
@@ -215,9 +215,7 @@ const ActivationFederated = ({ view }: Props) => {
               </>
             ) : (
               <div className="flex flex-col justify-between h-full">
-               <span className="font-semibold text-[19px]">
-                {card.title}
-              </span>
+                <span className="font-semibold text-[19px]">{card.title}</span>
                 <div className="flex justify-between gap-2 w-full flex-nowrap ">
                   <span className="bg-[#E6D2FF] dark:bg-[#c7bcf0] text-sm font-semibold text-[#141414] dark:text-[#141414] px-2 flex justify-center items-center w-[6rem] h-[1.8rem] py-1 rounded-full">
                     {card.type}
@@ -241,7 +239,12 @@ const ActivationFederated = ({ view }: Props) => {
                     </span>
                   )}
                 </div>
-                <div className="flex justify-between text-sm mb-2 items-start w-full">
+                <div
+                  className={`flex justify-between text-sm  items-start w-full ${
+                    view !== "list"
+                      && " border-t pt-3 dark:border-[#353535]"
+                  }   `}
+                >
                   <div className="flex flex-col justify-between  gap-[.4rem] items-center text-center w-full text-[17px] font-semibold">
                     {card.neurons}
                     <span className="text-[15px] font-normal text-[#818181] dark:text-[#c5c5c5] leading-[130%]">

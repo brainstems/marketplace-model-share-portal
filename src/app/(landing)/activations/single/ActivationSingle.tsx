@@ -8,7 +8,7 @@ interface Props {
 const ActivationSingle = ({ view }: Props) => {
   const cardData = [
     {
-      title: "Player Eng. and Satisfaction ",
+      title: "Player Engagement and Satisfaction ",
       type: "Single",
       running: true,
       subtitle:
