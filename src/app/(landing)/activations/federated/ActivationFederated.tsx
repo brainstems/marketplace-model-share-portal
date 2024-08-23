@@ -258,7 +258,7 @@ const ActivationFederated = ({ view }: Props) => {
                     </span>
                   </div>
                   <div className="flex flex-col justify-between gap-[.4rem] items-center text-center w-full text-[17px] font-semibold">
-                    {card.availableShares}
+                    {card.availableShares} 
                     <span className="text-[15px] font-normal text-[#818181] dark:text-[#c5c5c5] leading-[130%]">
                       Minimum Stake
                     </span>
