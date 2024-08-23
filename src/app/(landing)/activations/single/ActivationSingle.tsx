@@ -38,7 +38,7 @@ const ActivationSingle = ({ view }: Props) => {
       id: 2,
     },
     {
-      title: "Prioritizing Sales Targets",
+      title: "Prioritizing Sales Targets ",
       type: "Single",
       running: true,
       subtitle:
@@ -165,7 +165,7 @@ const ActivationSingle = ({ view }: Props) => {
             key={index}
             className={`card shadow-md border dark:border-[#353535] rounded-xl w-full relative  ${
               view === "box"
-                ? `flex flex-col px-4 py-5 h-[20rem]  3xl:h-[23rem]  lg:min-w-[21rem] justify-between xl:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818] `
+                ? `flex flex-col px-4 py-5 h-[21rem]  3xl:h-[24rem]  lg:min-w-[21rem] justify-between xl:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818] `
                 : `boxCards flex items-center justify-between overflow-x-scroll 3xl:overflow-x-hidden overflow-hidden  p-4 bg-[#fefefe] dark:bg-[#181818] w-full ${
                     card.running ? "h-[12rem]" : "h-[9rem]"
                   } `
@@ -178,7 +178,7 @@ const ActivationSingle = ({ view }: Props) => {
                   : "flex flex-col min-w-[17rem] md:min-w-[25rem] w-full pr-4 pt-3  "
               }   `}
             >
-              <span className="font-semibold text-[19px] xl:min-h-[4rem] realtive descriptionCard">{card.title}</span>
+              <span className="font-semibold text-[19px] xl:min-h-[3.64rem] realtive descriptionCard">{card.title}</span>
               <p
                 className={`text-sm mb-4 text-[#141414] dark:text-[#d6d6d6] w-full h-full ${
                   view === "list" ? " descriptionCardList" : "descriptionCard "
