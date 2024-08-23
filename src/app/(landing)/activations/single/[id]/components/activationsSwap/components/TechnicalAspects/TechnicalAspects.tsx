@@ -16,13 +16,13 @@ const TechnicalAspects = () => {
             for 3.5 million food outlets
           </span>
         </div>
-        <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed 2md:border-r-0 dark:border-[#fefefe50]">
+        <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed dark:border-[#fefefe50]">
           <img
             src="/assets/icons/userGroup.svg"
             alt="user Group"
             className="w-[2rem] h-[2rem]"
           />
-          <strong>2 Intelligent Activators</strong>
+           <strong>2 Intelligent Activators</strong>
           <span>
             Optimizes financial planning and forecasts the impact of game
             updates to guide strategic decisions in gaming projects.
@@ -40,7 +40,7 @@ const TechnicalAspects = () => {
           </span>
         </div>
 
-        <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed 2md:border-r-0 dark:border-[#fefefe50]">
+        <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed dark:border-[#fefefe50]">
           <img
             src="/assets/icons/userSpeak.svg"
             alt="user Speak"
@@ -60,7 +60,7 @@ const TechnicalAspects = () => {
           <span>On Retail and E-Commerce terminology</span>
         </div>
 
-        <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed 2md:border-r-0 dark:border-[#fefefe50] lg:border-r-0">
+        <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed dark:border-[#fefefe50] lg:border-r-0">
           <img
             src="/assets/icons/network.svg"
             alt="network"
@@ -81,7 +81,7 @@ const TechnicalAspects = () => {
             Predictive, descriptive, diagnostic, prescriptive and exploratory
           </span>
         </div>
-        <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed 2md:border-r-0 dark:border-[#fefefe50]">
+        <div className="flex flex-col gap-2 border-t py-6 md:border-r md:border-t-0 px-3 md:py-2 border-dashed dark:border-[#fefefe50]">
           <img
             src="/assets/icons/chart2.svg"
             alt="chart"
