@@ -15,8 +15,8 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Gaming", "Engagement", "Gamer experience"],
       neurons: 4,
       expectedOutcomes: "+$300.000",
-      availableShares: 200,
-      pricePerShare: "4.5 $STEMS",
+      availableShares: 3200,
+      pricePerShare: "3234.5 $STEMS",
       id: 1,
     },
     {
@@ -27,8 +27,8 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Gaming", "Engagement", "Gamer experience"],
       neurons: 4,
       expectedOutcomes: "+$600.000",
-      availableShares: 100,
-      pricePerShare: "4.5 $STEMS",
+      availableShares: 5100,
+      pricePerShare: "1344.5 $STEMS",
       id: 1,
     },
     {
@@ -39,7 +39,7 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Gaming", "Engagement", "Gamer experience"],
       neurons: 4,
       expectedOutcomes: "+$700.000",
-      availableShares: 700,
+      availableShares: 1700,
       pricePerShare: "4.5 $STEMS",
       id: 1,
     },
@@ -51,7 +51,7 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Food service", "ACME+8", "Delivery", "More"],
       neurons: 4,
       expectedOutcomes: "+$200",
-      availableShares: 1200,
+      availableShares: 6200,
       pricePerShare: "4.5 $STEMS",
       id: 2,
     },
@@ -75,7 +75,7 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Food service", "ACME+8", "Delivery", "More"],
       neurons: 4,
       expectedOutcomes: "+$240.000",
-      availableShares: 240,
+      availableShares: 4540,
       pricePerShare: "4.5 $STEMS",
       id: 4,
     },
@@ -87,7 +87,7 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Food service", "ACME+8", "Delivery", "More"],
       neurons: 6,
       expectedOutcomes: "+$680.000",
-      availableShares: 2100,
+      availableShares: 7100,
       pricePerShare: "4.5 $STEMS",
       id: 5,
     },
@@ -99,7 +99,7 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Food service", "ACME+8", "Delivery", "More"],
       neurons: 1,
       expectedOutcomes: "+$900.000",
-      availableShares: 50,
+      availableShares: 2350,
       pricePerShare: "4.5 $STEMS",
       id: 6,
     },
@@ -111,7 +111,7 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Food service", "ACME+8", "Delivery", "More"],
       neurons: 3,
       expectedOutcomes: "+$1200",
-      availableShares: 894,
+      availableShares: 7894,
       pricePerShare: "4.5 $STEMS",
       id: 7,
     },
@@ -123,7 +123,7 @@ const ActivationFederated = ({ view }: Props) => {
       tags: ["Food service", "ACME+8", "Delivery", "More"],
       neurons: 2,
       expectedOutcomes: "+$1424",
-      availableShares: 500,
+      availableShares: 3500,
       pricePerShare: "4.5 $STEMS",
       id: 8,
     },
@@ -215,7 +215,9 @@ const ActivationFederated = ({ view }: Props) => {
               </>
             ) : (
               <div className="flex flex-col justify-between h-full">
-                <span className="font-semibold text-[19px] xl:min-h-[3.94rem] realtive descriptionCard">{card.title}</span>
+                <span className="font-semibold text-[19px] xl:min-h-[3.94rem] realtive descriptionCard">
+                  {card.title}
+                </span>
                 <div className="flex justify-between gap-2 w-full flex-nowrap flex-col ">
                   <p className="text-sm mb-4 text-[#141414] dark:text-[#d6d6d6]  descriptionCard">
                     {card.subtitle}
@@ -241,8 +243,7 @@ const ActivationFederated = ({ view }: Props) => {
                 </div>
                 <div
                   className={`flex justify-between text-sm  items-start w-full ${
-                    view !== "list"
-                      && " border-t pt-3 dark:border-[#353535]"
+                    view !== "list" && " border-t pt-3 dark:border-[#353535]"
                   }   `}
                 >
                   <div className="flex flex-col justify-between  gap-[.4rem] items-center text-center w-full text-[17px] font-semibold">
@@ -258,7 +259,7 @@ const ActivationFederated = ({ view }: Props) => {
                     </span>
                   </div>
                   <div className="flex flex-col justify-between gap-[.4rem] items-center text-center w-full text-[17px] font-semibold">
-                    {card.availableShares} 
+                    {card.availableShares}
                     <span className="text-[15px] font-normal text-[#818181] dark:text-[#c5c5c5] leading-[130%] px-1">
                       Minimum Stake
                     </span>

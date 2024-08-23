@@ -33,7 +33,7 @@ const CompanyInvolved = () => {
           <AccordionContent>
             <ul className="flex gap-6 md:gap-3 flex-col list-disc list-inside py-[.5rem]">
               <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Global Gamer Profile 
+                Global Gamer Profile
                 <div className="flex  gap-2">
                   <img
                     src="/assets/icons/gear.svg"
@@ -46,7 +46,7 @@ const CompanyInvolved = () => {
                 </div>
               </li>
               <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Player Engagement
+                Budget Estimates
                 <div className="flex gap-2">
                   <img
                     src="/assets/icons/play.svg"
@@ -59,7 +59,7 @@ const CompanyInvolved = () => {
                 </div>
               </li>
               <li className="text-[16px] flex md:gap-4 gap-1  sm:flex-row flex-col-reverse">
-                Satisfaction Metrics
+                Impact Predictor
                 <div className="flex gap-2">
                   <img
                     src="/assets/icons/rocket.svg"
@@ -86,9 +86,7 @@ const CompanyInvolved = () => {
             />
             Gala Games
           </AccordionTrigger>
-          <AccordionContent>
-           
-          </AccordionContent>
+          <AccordionContent></AccordionContent>
         </AccordionItem>
         <AccordionItem
           value="item-3"
@@ -102,9 +100,7 @@ const CompanyInvolved = () => {
             />
             Vulcan Forged
           </AccordionTrigger>
-          <AccordionContent>
-            
-          </AccordionContent>
+          <AccordionContent></AccordionContent>
         </AccordionItem>
       </Accordion>
     </div>

@@ -16,10 +16,10 @@ const ActivationSingle = ({ view }: Props) => {
       tags: ["Gaming", "Engagement", "Gamer experience"],
       neurons: 4,
       expectedOutcomes: "+$200.000",
-      availableShares: 200,
+      availableShares: 7600,
       pricePerShare: "4.5 $STEMS",
       deployments: 150,
-      price: "1000 $STEMS",
+      price: "1600 $STEMS",
       id: 1,
     },
     {
@@ -32,9 +32,9 @@ const ActivationSingle = ({ view }: Props) => {
       neurons: 4,
       expectedOutcomes: "+$200.000",
       pricePerShare: "4.5 $STEMS",
-      availableShares: 300,
+      availableShares: 4500,
       deployments: 350,
-      price: "600 $STEMS",
+      price: "6600 $STEMS",
       id: 2,
     },
     {
@@ -48,9 +48,9 @@ const ActivationSingle = ({ view }: Props) => {
       expectedOutcomes: "+$200.000",
       pricePerShare: "4.5 $STEMS",
       reservePrice: "400 $STEMS",
-      availableShares: 200,
+      availableShares: 6200,
       deployments: 150,
-      price: "1000 $STEMS",
+      price: "2000 $STEMS",
       id: 3,
     },
     {
@@ -64,9 +64,9 @@ const ActivationSingle = ({ view }: Props) => {
       expectedOutcomes: "+$200.000",
       pricePerShare: "4.5 $STEMS",
       reservePrice: "1200 $STEMS",
-      availableShares: 200,
+      availableShares: 5200,
       deployments: 150,
-      price: "1000 $STEMS",
+      price: "3000 $STEMS",
       id: 4,
     },
     {
@@ -80,9 +80,9 @@ const ActivationSingle = ({ view }: Props) => {
       neurons: 4,
       expectedOutcomes: "+$200.000",
       pricePerShare: "4.5 $STEMS",
-      availableShares: 200,
+      availableShares: 3200,
       deployments: 150,
-      price: "1000 $STEMS",
+      price: "1600 $STEMS",
       id: 5,
     },
     {
@@ -96,9 +96,9 @@ const ActivationSingle = ({ view }: Props) => {
       neurons: 4,
       expectedOutcomes: "+$200.000",
       pricePerShare: "4.5 $STEMS",
-      availableShares: 200,
+      availableShares: 6200,
       deployments: 150,
-      price: "1000 $STEMS",
+      price: "6400 $STEMS",
       id: 6,
     },
     {
@@ -112,9 +112,9 @@ const ActivationSingle = ({ view }: Props) => {
       neurons: 4,
       expectedOutcomes: "+$200.000",
       pricePerShare: "4.5 $STEMS",
-      availableShares: 200,
+      availableShares: 2200,
       deployments: 150,
-      price: "1000 $STEMS",
+      price: "12300 $STEMS",
       id: 7,
     },
     {
@@ -130,7 +130,7 @@ const ActivationSingle = ({ view }: Props) => {
       pricePerShare: "4.5 $STEMS",
       availableShares: 200,
       deployments: 150,
-      price: "1000 $STEMS",
+      price: "2100 $STEMS",
       id: 8,
     },
     {
@@ -178,7 +178,9 @@ const ActivationSingle = ({ view }: Props) => {
                   : "flex flex-col min-w-[17rem] md:min-w-[25rem] w-full pr-4 pt-3  "
               }   `}
             >
-              <span className="font-semibold text-[19px] xl:min-h-[3.64rem] realtive descriptionCard">{card.title}</span>
+              <span className="font-semibold text-[19px] xl:min-h-[3.64rem] realtive descriptionCard">
+                {card.title}
+              </span>
               <p
                 className={`text-sm mb-4 text-[#141414] dark:text-[#d6d6d6] w-full h-full ${
                   view === "list" ? " descriptionCardList" : "descriptionCard "
