@@ -61,7 +61,7 @@ const ActivationFederated = ({ view }: Props) => {
       subtitle:
         "Our drink distribution process is designed for efficiency and customer satisfaction. We maintain a well-organized inventory and use advanced logistics to deliver quality beverages to your doorstep, all while keeping sustainability in mind.",
       tags: ["Food service", "ACME+8", "Delivery", "More"],
-      neurons: 4,
+      neurons:2,
       expectedOutcomes: "+$153.000",
       availableShares: 1500,
       pricePerShare: "4.5 $STEMS",
@@ -85,7 +85,7 @@ const ActivationFederated = ({ view }: Props) => {
       subtitle:
         "Plan dynamic menus based on real-time data and trends for better customer engagement.",
       tags: ["Food service", "ACME+8", "Delivery", "More"],
-      neurons: 4,
+      neurons: 6,
       expectedOutcomes: "+$680.000",
       availableShares: 2100,
       pricePerShare: "4.5 $STEMS",
@@ -97,7 +97,7 @@ const ActivationFederated = ({ view }: Props) => {
       subtitle:
         "Replenish stock efficiently with AI-driven insights to prevent shortages and overstock.",
       tags: ["Food service", "ACME+8", "Delivery", "More"],
-      neurons: 4,
+      neurons: 1,
       expectedOutcomes: "+$900.000",
       availableShares: 50,
       pricePerShare: "4.5 $STEMS",
@@ -109,7 +109,7 @@ const ActivationFederated = ({ view }: Props) => {
       subtitle:
         "Coordinate orders seamlessly to improve fulfillment and operational efficiency.",
       tags: ["Food service", "ACME+8", "Delivery", "More"],
-      neurons: 4,
+      neurons:3,
       expectedOutcomes: "+$1200",
       availableShares: 894,
       pricePerShare: "4.5 $STEMS",
@@ -121,7 +121,7 @@ const ActivationFederated = ({ view }: Props) => {
       subtitle:
         "Track ingredients in real-time to ensure freshness and reduce waste.",
       tags: ["Food service", "ACME+8", "Delivery", "More"],
-      neurons: 4,
+      neurons: 2,
       expectedOutcomes: "+$1424",
       availableShares: 500,
       pricePerShare: "4.5 $STEMS",
@@ -133,7 +133,7 @@ const ActivationFederated = ({ view }: Props) => {
     <div
       className={`boxCards pr-2 relative max-h-[50rem] overflow-hidden overflow-y-scroll pb-[2rem] px-1 ${
         view === "box"
-          ? "grid grid-cols-1 2sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4"
+       ? "grid grid-cols-1 2sm:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-4"
           : "flex flex-col gap-8"
       }`}
     >
