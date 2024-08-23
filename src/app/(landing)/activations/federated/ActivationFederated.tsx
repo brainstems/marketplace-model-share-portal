@@ -150,7 +150,7 @@ const ActivationFederated = ({ view }: Props) => {
             {view === "list" ? (
               <>
                 <div className="flex items-center justify-between gap-4 ">
-                  <div className="flex flex-col w-[25rem]  mt-4 h-full justify-between gap-2 ">
+                  <div className="flex flex-col w-[25rem] mt-4 h-full justify-between gap-2 ">
                     <div className="flex gap-2 h-full ">
                       <span className="bg-[#E6D2FF] dark:bg-[#c7bcf0] text-sm font-semibold text-[#141414] dark:text-[#141414] px-2 py-1 rounded-full">
                         {card.type}
@@ -215,7 +215,9 @@ const ActivationFederated = ({ view }: Props) => {
               </>
             ) : (
               <div className="flex flex-col justify-between h-full">
-                <div className="font-semibold text-xl mb-2">{card.title}</div>
+               <span className="font-semibold text-[19px]">
+                {card.title}
+              </span>
                 <div className="flex justify-between gap-2 w-full flex-nowrap ">
                   <span className="bg-[#E6D2FF] dark:bg-[#c7bcf0] text-sm font-semibold text-[#141414] dark:text-[#141414] px-2 flex justify-center items-center w-[6rem] h-[1.8rem] py-1 rounded-full">
                     {card.type}

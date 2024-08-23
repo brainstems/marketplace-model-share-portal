@@ -123,9 +123,9 @@ const ActivationSingle = ({ view }: Props) => {
                   : "flex flex-col min-w-[17rem] md:min-w-[25rem] w-full pr-4 pt-3  "
               }   `}
             >
-              <div className="font-semibold text-[14px] md:text-lg mb-2 leading-[130%]">
+              <span className="font-semibold text-[19px]">
                 {card.title}
-              </div>
+              </span>
               <p className={`text-sm mb-4 text-[#141414] dark:text-[#d6d6d6] w-full h-full ${view === 'list' ? ' descriptionCardList' : 'descriptionCard '} `}>
                       {card.subtitle}
                     </p>
