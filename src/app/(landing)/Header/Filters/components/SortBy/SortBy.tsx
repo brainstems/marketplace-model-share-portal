@@ -24,7 +24,7 @@ const SortBy = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4 p-2 rounded-xl  md:min-w-[23rem] relative z-[90] ">
+    <div className="flex flex-col gap-4 p-2 rounded-xl w-full sm:max-w-[23rem] relative z-[90] ">
       <span className="font-bold text-[1.1rem]">Sort by</span>
       <Select
         value={selectedOption}

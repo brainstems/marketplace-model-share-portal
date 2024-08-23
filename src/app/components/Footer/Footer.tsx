@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center items-center flex-col px-[1rem] md:px-[4rem] lg:px-[8rem] py-[1rem] pb-[2rem]  bg-[#ffffff] dark:bg-[#0f0f0f] border-t-2 border-[#e2e2e2] dark:border-[#202020] rounded-xl mt-[4rem]">
+    <div className="flex justify-center items-center flex-col px-[1rem] md:px-[4rem] lg:px-[8rem] py-[1rem] pb-[2rem]  bg-[#ffffff] dark:bg-[#00000000] border-t-2 border-[#e2e2e2] dark:border-[#202020] rounded-xl mt-[4rem]">
      {/*  <Link href={'/tyc'} className="mb-3">
         <span>Terms & Conditions</span>
       </Link> */}

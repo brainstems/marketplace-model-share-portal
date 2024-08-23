@@ -143,7 +143,7 @@ const ActivationFederated = ({ view }: Props) => {
             key={index}
             className={`card border shadow-md dark:border-[#353535] rounded-xl w-full relative ${
               view === "box"
-                ? "flex flex-col px-4 py-5 h-[22rem]  lg:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818]"
+                ? "flex flex-col px-4 py-5 h-[20rem]  3xl:h-[22rem]  lg:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818]"
                 : "boxCards flex items-center justify-between overflow-x-scroll 3xl:overflow-x-hidden overflow-hidden h-[11rem] p-4 bg-[#fefefe] dark:bg-[#181818] w-full"
             }`}
           >

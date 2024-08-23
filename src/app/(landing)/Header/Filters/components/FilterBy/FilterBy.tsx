@@ -23,7 +23,7 @@ const FilterBy = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4 p-2 rounded-xl relative  z-[100] w-full sm:w-[26rem] lg:w-[40rem] ">
+    <div className="flex flex-col gap-4 p-2 rounded-xl relative  z-[100] w-full sm:w-[26rem] md:w-[20rem] ">
       <span className="font-bold text-[1.1rem]">Personalize your search</span>
       <div
         className="flex h-[3.5rem] w-full items-center justify-between rounded-xl ring-2 ring-[#dfdfdf] dark:ring-[#242424]  shadow-sm px-3 py-3 text-sm  placeholder:text-gray-500 focus:outline-none  bg-white dark:bg-[#202020] text-[#101010] dark:text-[#fefefe] z-[100] relative cursor-pointer "

@@ -165,7 +165,7 @@ const ActivationSingle = ({ view }: Props) => {
             key={index}
             className={`card shadow-md border dark:border-[#353535] rounded-xl w-full relative  ${
               view === "box"
-                ? `flex flex-col px-4 py-5 h-[23rem]  lg:min-w-[21rem] justify-between xl:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818] `
+                ? `flex flex-col px-4 py-5 h-[20rem]  3xl:h-[23rem]  lg:min-w-[21rem] justify-between xl:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818] `
                 : `boxCards flex items-center justify-between overflow-x-scroll 3xl:overflow-x-hidden overflow-hidden  p-4 bg-[#fefefe] dark:bg-[#181818] w-full ${
                     card.running ? "h-[12rem]" : "h-[9rem]"
                   } `
@@ -189,7 +189,7 @@ const ActivationSingle = ({ view }: Props) => {
               {card.running && (
                 <div className="flex  items-center mb-4 gap-[1rem]">
                   <span
-                    className={`text-sm font-semibold px-2 py-1 rounded-full ${
+                    className={`text-sm font-semibold px-4 py-1 rounded-full ${
                       card.running
                         ? "bg-[#E6D2FF] dark:bg-[#c7bcf0] text-[#141414] dark:text-[#141414]"
                         : "bg-[#9E005920] dark:bg-[#FDD5D5]  text-[#050505]"

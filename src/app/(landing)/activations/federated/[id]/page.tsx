@@ -29,7 +29,7 @@ const Page = ({ params }: PageProps) => {
   const item = dataNames.find((data) => data.id.toString() === params.id);
 
   return (
-    <div className=" min-h-[100vh] relative text-[#010101] dark:text-[#fefefe]  hero flex flex-col gap-[3rem] w-full m-auto xl:max-w-[70%]  3xl:max-w-[60%] px-[1.3rem] mt-[4rem] ">
+    <div className=" min-h-[100vh] relative text-[#010101] dark:text-[#fefefe]  hero flex flex-col gap-[3rem] w-full  m-auto sm:max-w-[92%] xl:max-w-[70%]  3xl:max-w-[60%] px-[1.3rem] mt-[4rem] ">
       {item ? (
         <HeaderDetail route={item.name} />
       ) : (

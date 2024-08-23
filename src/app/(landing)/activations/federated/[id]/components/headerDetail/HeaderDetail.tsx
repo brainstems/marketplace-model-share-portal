@@ -31,8 +31,8 @@ const HeaderDetail = ({ route }: Props) => {
         </BreadcrumbList>
       </Breadcrumb>
 
-      <div className="flex flex-col md:flex-row w-full gap-6 justify-start items-start md:items-center  md:mt-[2rem] ">
-         <h2 className="md:text-[31px] text-[27px] font-bold leading-[130%]  max-w-[30rem]">
+      <div className="flex flex-col 2md:flex-row w-full gap-6 justify-start items-start 2md:items-center  2md:mt-[2rem] ">
+         <h2 className="md:text-[31px] text-[27px] font-bold leading-[130%]  2xl:max-w-[30rem]">
           {route}
         </h2>
         <div className="sm:px-6 px-3 py-2 flex gap-4 text-[14px] lg:text-[20px] text-[#141414] dark:text-[#141414] bg-[#E6D2FF] border rounded-full font-semibold leading-[130%]">
