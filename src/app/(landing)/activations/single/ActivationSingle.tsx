@@ -28,9 +28,9 @@ const ActivationSingle = ({ view }: Props) => {
       running: true,
       subtitle: "Enhance sales by optimizing product mix based on performance data and trends.",
       tags: ["Places", "Sells", "Real Estate", "More"],
-      availableShares: 900,
-      deployments: 150,
-      price: "1000 $STEMS",
+      availableShares: 300,
+      deployments: 350,
+      price: "600 $STEMS",
       id: 2,
     },
     {
@@ -39,7 +39,7 @@ const ActivationSingle = ({ view }: Props) => {
       running: false,
       subtitle: "Focus on high-value customers to maximize returns with targeted sales strategies.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "1000 $STEMS",
+      reservePrice: "400 $STEMS",
       id: 3,
     },
     {
@@ -48,7 +48,7 @@ const ActivationSingle = ({ view }: Props) => {
       running: false,
       subtitle: "Determine the best sales channels for seasonal or holiday products using data insights.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "1000 $STEMS",
+      reservePrice: "1200 $STEMS",
       id: 4,
     },
     {
@@ -57,7 +57,7 @@ const ActivationSingle = ({ view }: Props) => {
       running: false,
       subtitle: "Optimize inventory with AI to maintain optimal stock levels and reduce excess.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "1000 $STEMS",
+      reservePrice: "1500 $STEMS",
       id: 5,
     },
     {
@@ -66,7 +66,7 @@ const ActivationSingle = ({ view }: Props) => {
       running: false,
       subtitle: "Analyze and enhance your supply chain for better efficiency and cost savings.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "1000 $STEMS",
+      reservePrice: "100 $STEMS",
       id:6,
     },
     {
@@ -75,7 +75,7 @@ const ActivationSingle = ({ view }: Props) => {
       running: false,
       subtitle: "Manage recipes creatively with tools to improve and streamline culinary processes.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "1000 $STEMS",
+      reservePrice: "400 $STEMS",
       id: 7,
     },
     {
@@ -84,7 +84,7 @@ const ActivationSingle = ({ view }: Props) => {
       running: false,
       subtitle: "Ensure product quality with in-depth analysis and management solutions.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "1000 $STEMS",
+      reservePrice: "800 $STEMS",
       id: 8,
     },
     {
@@ -93,7 +93,7 @@ const ActivationSingle = ({ view }: Props) => {
       running: false,
       subtitle: "Plan purchases strategically with AI to optimize spending and inventory levels.",
       tags: ["Sales", "Team", "Customer", "More"],
-      reservePrice: "1000 $STEMS",
+      reservePrice: "1700 $STEMS",
       id: 9,
     },
   ];
