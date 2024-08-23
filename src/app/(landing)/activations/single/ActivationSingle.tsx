@@ -120,7 +120,7 @@ const ActivationSingle = ({ view }: Props) => {
               className={`${
                 view === "box"
                   ? "flex flex-col gap-2  "
-                  : "flex flex-col min-w-[17rem] md:min-w-[25rem] w-full pr-2  "
+                  : "flex flex-col min-w-[17rem] md:min-w-[25rem] w-full pr-4 pt-3  "
               }   `}
             >
               <div className="font-semibold text-[14px] md:text-lg mb-2 leading-[130%]">
