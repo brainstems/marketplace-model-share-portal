@@ -143,7 +143,7 @@ const ActivationFederated = ({ view }: Props) => {
             key={index}
             className={`card border shadow-md dark:border-[#353535] rounded-xl w-full relative ${
               view === "box"
-                ? "flex flex-col px-4 py-5 h-[20rem]  lg:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818]"
+                ? "flex flex-col px-4 py-5 h-[22rem]  lg:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818]"
                 : "boxCards flex items-center justify-between overflow-x-scroll 3xl:overflow-x-hidden overflow-hidden h-[11rem] p-4 bg-[#fefefe] dark:bg-[#181818] w-full"
             }`}
           >
@@ -215,7 +215,7 @@ const ActivationFederated = ({ view }: Props) => {
               </>
             ) : (
               <div className="flex flex-col justify-between h-full">
-                <span className="font-semibold text-[19px] h-[4rem] ">{card.title}</span>
+                <span className="font-semibold text-[19px] xl:min-h-[4rem] realtive">{card.title}</span>
                 <div className="flex justify-between gap-2 w-full flex-nowrap flex-col ">
                   <p className="text-sm mb-4 text-[#141414] dark:text-[#d6d6d6]  descriptionCard">
                     {card.subtitle}
