@@ -13,8 +13,7 @@ const Header = () => {
           </h1>
           <p className="text-[16px] xl:text-[19px] font-[500]  lg:max-w-[80%]">
             Join the Brainstems Steward Program and participate in our Model
-            Shares initiative. Contribute to Pathway Activations with your
-            $STEMS.
+            Shares initiative. Make a Signal to Pathway Activations with your $STEMS.
           </p>
         </div>
 

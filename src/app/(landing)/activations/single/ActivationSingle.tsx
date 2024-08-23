@@ -13,7 +13,7 @@ const ActivationSingle = ({ view }: Props) => {
       running: true,
       subtitle:
         "Player Engagement and Satisfaction Metrics using Gamer Profile:  Leveraging advanced deep-learning algorithms and predictive analytics, this AI model aggregates and analyzes data from multiple gaming platforms to create a comprehensive Global Gamer Profile. This profile includes player activities, preferences, and behaviors to offer insights that enhance personalized player experiences and boost satisfaction. ",
-        tags: ["Gaming", "Engagement", "Gamer experience"],
+      tags: ["Gaming", "Engagement", "Gamer experience"],
       neurons: 4,
       expectedOutcomes: "+$200.000",
       availableShares: 200,
@@ -26,8 +26,12 @@ const ActivationSingle = ({ view }: Props) => {
       title: "Optimizing Product Mix for Sales",
       type: "Single",
       running: true,
-      subtitle: "Enhance sales by optimizing product mix based on performance data and trends.",
+      subtitle:
+        "Enhance sales by optimizing product mix based on performance data and trends.",
       tags: ["Places", "Sells", "Real Estate", "More"],
+      neurons: 4,
+      expectedOutcomes: "+$200.000",
+      pricePerShare: "4.5 $STEMS",
       availableShares: 300,
       deployments: 350,
       price: "600 $STEMS",
@@ -36,64 +40,113 @@ const ActivationSingle = ({ view }: Props) => {
     {
       title: "Prioritizing Customers for Optimal Return from my Sales Team",
       type: "Single",
-      running: false,
-      subtitle: "Focus on high-value customers to maximize returns with targeted sales strategies.",
+      running: true,
+      subtitle:
+        "Focus on high-value customers to maximize returns with targeted sales strategies.",
       tags: ["Sales", "Team", "Customer", "More"],
+      neurons: 4,
+      expectedOutcomes: "+$200.000",
+      pricePerShare: "4.5 $STEMS",
       reservePrice: "400 $STEMS",
+      availableShares: 200,
+      deployments: 150,
+      price: "1000 $STEMS",
       id: 3,
     },
     {
       title: "Identifying Where to Sell My Seasonal or Holiday Product (s)",
       type: "Single",
-      running: false,
-      subtitle: "Determine the best sales channels for seasonal or holiday products using data insights.",
+      running: true,
+      subtitle:
+        "Determine the best sales channels for seasonal or holiday products using data insights.",
       tags: ["Sales", "Team", "Customer", "More"],
+      neurons: 4,
+      expectedOutcomes: "+$200.000",
+      pricePerShare: "4.5 $STEMS",
       reservePrice: "1200 $STEMS",
+      availableShares: 200,
+      deployments: 150,
+      price: "1000 $STEMS",
       id: 4,
     },
     {
       title: "Smart Inventory Optimization",
       type: "Single",
-      running: false,
-      subtitle: "Optimize inventory with AI to maintain optimal stock levels and reduce excess.",
+      running: true,
+      subtitle:
+        "Optimize inventory with AI to maintain optimal stock levels and reduce excess.",
       tags: ["Sales", "Team", "Customer", "More"],
       reservePrice: "1500 $STEMS",
+      neurons: 4,
+      expectedOutcomes: "+$200.000",
+      pricePerShare: "4.5 $STEMS",
+      availableShares: 200,
+      deployments: 150,
+      price: "1000 $STEMS",
       id: 5,
     },
     {
       title: "Advanced Supply Chain Analysis",
       type: "Single",
-      running: false,
-      subtitle: "Analyze and enhance your supply chain for better efficiency and cost savings.",
+      running: true,
+      subtitle:
+        "Analyze and enhance your supply chain for better efficiency and cost savings.",
       tags: ["Sales", "Team", "Customer", "More"],
       reservePrice: "100 $STEMS",
-      id:6,
+      neurons: 4,
+      expectedOutcomes: "+$200.000",
+      pricePerShare: "4.5 $STEMS",
+      availableShares: 200,
+      deployments: 150,
+      price: "1000 $STEMS",
+      id: 6,
     },
     {
       title: "Innovative Recipe Management",
       type: "Single",
-      running: false,
-      subtitle: "Manage recipes creatively with tools to improve and streamline culinary processes.",
+      running: true,
+      subtitle:
+        "Manage recipes creatively with tools to improve and streamline culinary processes.",
       tags: ["Sales", "Team", "Customer", "More"],
       reservePrice: "400 $STEMS",
+      neurons: 4,
+      expectedOutcomes: "+$200.000",
+      pricePerShare: "4.5 $STEMS",
+      availableShares: 200,
+      deployments: 150,
+      price: "1000 $STEMS",
       id: 7,
     },
     {
       title: "Comprehensive Quality Assurance",
       type: "Single",
-      running: false,
-      subtitle: "Ensure product quality with in-depth analysis and management solutions.",
+      running: true,
+      subtitle:
+        "Ensure product quality with in-depth analysis and management solutions.",
       tags: ["Sales", "Team", "Customer", "More"],
       reservePrice: "800 $STEMS",
+      neurons: 4,
+      expectedOutcomes: "+$200.000",
+      pricePerShare: "4.5 $STEMS",
+      availableShares: 200,
+      deployments: 150,
+      price: "1000 $STEMS",
       id: 8,
     },
     {
       title: "Strategic Purchase Planning",
       type: "Single",
-      running: false,
-      subtitle: "Plan purchases strategically with AI to optimize spending and inventory levels.",
+      running: true,
+      subtitle:
+        "Plan purchases strategically with AI to optimize spending and inventory levels.",
       tags: ["Sales", "Team", "Customer", "More"],
       reservePrice: "1700 $STEMS",
+      neurons: 4,
+      expectedOutcomes: "+$200.000",
+      pricePerShare: "4.5 $STEMS",
+      availableShares: 200,
+      deployments: 150,
+      price: "1000 $STEMS",
       id: 9,
     },
   ];
@@ -112,8 +165,10 @@ const ActivationSingle = ({ view }: Props) => {
             key={index}
             className={`card shadow-md border dark:border-[#353535] rounded-xl w-full relative  ${
               view === "box"
-                ? `flex flex-col px-4 py-5 h-[20rem]  lg:min-w-[21rem] justify-between xl:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818] ` 
-                : `boxCards flex items-center justify-between overflow-x-scroll 3xl:overflow-x-hidden overflow-hidden  p-4 bg-[#fefefe] dark:bg-[#181818] w-full ${ card.running ? 'h-[12rem]' : 'h-[9rem]'} ` 
+                ? `flex flex-col px-4 py-5 h-[23rem]  lg:min-w-[21rem] justify-between xl:min-w-[20rem] bg-[#fefefe] dark:bg-[#181818] `
+                : `boxCards flex items-center justify-between overflow-x-scroll 3xl:overflow-x-hidden overflow-hidden  p-4 bg-[#fefefe] dark:bg-[#181818] w-full ${
+                    card.running ? "h-[12rem]" : "h-[9rem]"
+                  } `
             }`}
           >
             <div
@@ -123,12 +178,14 @@ const ActivationSingle = ({ view }: Props) => {
                   : "flex flex-col min-w-[17rem] md:min-w-[25rem] w-full pr-4 pt-3  "
               }   `}
             >
-              <span className="font-semibold text-[19px]">
-                {card.title}
-              </span>
-              <p className={`text-sm mb-4 text-[#141414] dark:text-[#d6d6d6] w-full h-full ${view === 'list' ? ' descriptionCardList' : 'descriptionCard '} `}>
-                      {card.subtitle}
-                    </p>
+              <span className="font-semibold text-[20px] min-h-[4rem]  realtive">{card.title}</span>
+              <p
+                className={`text-sm mb-4 text-[#141414] dark:text-[#d6d6d6] w-full h-full ${
+                  view === "list" ? " descriptionCardList" : "descriptionCard "
+                } `}
+              >
+                {card.subtitle}
+              </p>
               {card.running && (
                 <div className="flex  items-center mb-4 gap-[1rem]">
                   <span
