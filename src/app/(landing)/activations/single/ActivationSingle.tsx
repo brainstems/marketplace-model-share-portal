@@ -38,7 +38,7 @@ const ActivationSingle = ({ view }: Props) => {
       id: 2,
     },
     {
-      title: "Prioritizing Customers for Optimal Return from my Sales Team",
+      title: "Prioritizing Sales Targets",
       type: "Single",
       running: true,
       subtitle:
@@ -178,7 +178,7 @@ const ActivationSingle = ({ view }: Props) => {
                   : "flex flex-col min-w-[17rem] md:min-w-[25rem] w-full pr-4 pt-3  "
               }   `}
             >
-              <span className="font-semibold text-[19px] xl:min-h-[4rem] realtive">{card.title}</span>
+              <span className="font-semibold text-[19px] xl:min-h-[4rem] realtive descriptionCard">{card.title}</span>
               <p
                 className={`text-sm mb-4 text-[#141414] dark:text-[#d6d6d6] w-full h-full ${
                   view === "list" ? " descriptionCardList" : "descriptionCard "
